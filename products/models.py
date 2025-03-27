@@ -23,7 +23,10 @@ class Product(models.Model):
 
 class Banner(models.Model):
     title = models.CharField(max_length=100)
-    image = models.ImageField(upload_to='banners/')
+    image = models.ImageField(
+    upload_to='banners/',
+    help_text="Recommended size: 1920x1080 pixels"  # This is the key change
+    )
     product = models.ForeignKey('Product', on_delete=models.CASCADE)
     is_active = models.BooleanField(default=True)
     subtitle = models.CharField(max_length=200, blank=True)
