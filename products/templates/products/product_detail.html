@@ -1,0 +1,73 @@
+<!-- product_detail.html -->
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ product.name }} - ShopEase{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+    <div class="row">
+        <!-- Product Image -->
+        <div class="col-md-6">
+            <img src="{{ product.image.url }}" 
+                 class="img-fluid rounded-3 shadow" 
+                 alt="{{ product.name }}"
+                 style="max-height: 500px; object-fit: contain;">
+        </div>
+        
+        <!-- Product Info -->
+        <div class="col-md-6">
+            <h1 class="fw-bold mb-3">{{ product.name }}</h1>
+            
+            <!-- Rating -->
+            <div class="d-flex align-items-center mb-3">
+                <div class="text-warning me-2">
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-half"></i>
+                </div>
+                <span class="text-muted">(24 reviews)</span>
+            </div>
+            
+            <!-- Price -->
+            <div class="mb-4">
+                <span class="fs-3 fw-bold text-primary">${{ product.price }}</span>
+                {% if product.old_price %}
+                <span class="text-decoration-line-through text-muted ms-2">${{ product.old_price }}</span>
+                {% endif %}
+            </div>
+            
+            <!-- Description -->
+            <p class="mb-4">{{ product.description }}</p>
+            
+            <!-- Stock Status -->
+            <div class="mb-4">
+                {% if product.stock > 0 %}
+                <span class="badge bg-success">In Stock ({{ product.stock }})</span>
+                {% else %}
+                <span class="badge bg-danger">Out of Stock</span>
+                {% endif %}
+            </div>
+            
+            <!-- Add to Cart -->
+            <div class="d-flex gap-3 mb-5">
+                <div class="input-group" style="width: 120px;">
+                    <button class="btn btn-outline-secondary">-</button>
+                    <input type="text" class="form-control text-center" value="1">
+                    <button class="btn btn-outline-secondary">+</button>
+                </div>
+                <button class="btn btn-primary flex-grow-1">
+                    <i class="bi bi-cart-plus"></i> Add to Cart
+                </button>
+            </div>
+            
+            <!-- Back Button -->
+            <a href="{% url 'product_list' %}" class="btn btn-outline-secondary">
+                <i class="bi bi-arrow-left"></i> Back to Shop
+            </a>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,73 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Shop - ShopEase{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+    <!-- Filter Bar -->
+    <div class="row mb-4">
+        <div class="col-md-6">
+            <h1 class="fw-bold">Our Products</h1>
+        </div>
+        <div class="col-md-6 text-end">
+            <select class="form-select d-inline-block w-auto">
+                <option>Sort by: Default</option>
+                <option>Price: Low to High</option>
+                <option>Price: High to Low</option>
+                <option>Top Rated</option>
+            </select>
+        </div>
+    </div>
+    
+    <!-- Product Grid -->
+    <div class="row g-4">
+        {% for product in products %}
+        <div class="col-md-4 col-lg-3">
+            <div class="product-card card h-100 border-0 shadow-sm">
+                {% if product.is_new %}
+                <div class="badge bg-success position-absolute" style="top: 10px; left: 10px">New</div>
+                {% endif %}
+                
+                <img src="{{ product.image.url }}" 
+                     class="card-img-top p-3" 
+                     alt="{{ product.name }}"
+                     style="height: 200px; object-fit: contain;">
+                
+                <div class="card-body">
+                    <h5 class="card-title">{{ product.name|truncatechars:30 }}</h5>
+                    <p class="text-muted small">{{ product.category.name }}</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                        <span class="fw-bold text-primary">${{ product.price }}</span>
+                        <a href="{% url 'product_detail' product.id %}" 
+                           class="btn btn-sm btn-outline-primary">
+                            <i class="bi bi-eye"></i> View
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% empty %}
+        <div class="col-12 text-center py-5">
+            <h4 class="text-muted">No products found</h4>
+            <a href="/" class="btn btn-primary mt-3">Back to Home</a>
+        </div>
+        {% endfor %}
+    </div>
+    
+    <!-- Pagination -->
+    <nav class="mt-5">
+        <ul class="pagination justify-content-center">
+            <li class="page-item disabled">
+                <a class="page-link" href="#">Previous</a>
+            </li>
+            <li class="page-item active"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#">Next</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+{% endblock %}
