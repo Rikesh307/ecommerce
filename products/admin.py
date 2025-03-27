@@ -17,8 +17,10 @@ class CategoryAdmin(admin.ModelAdmin):
 
 @admin.register(Banner)
 class BannerAdmin(admin.ModelAdmin):
-    list_display = ('title', 'product', 'is_active')
-    list_editable = ('is_active',)
+    list_display = ('title', 'product', 'is_active', 'created_at')
+    list_filter = ('created_at', 'is_active')
+    search_fields = ('title', 'subtitle', 'product__name')
+    readonly_fields = ('created_at',)
 
 @admin.register(Review)
 class ReviewAdmin(admin.ModelAdmin):
