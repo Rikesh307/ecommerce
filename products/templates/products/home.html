@@ -1,0 +1,320 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<!-- Premium Auto-Sliding Banner -->
+<section class="banner-container mb-4" style="height: 70vh; min-height: 500px; max-height: 800px; overflow: hidden;">
+  <div id="streamingBanner" class="carousel slide h-100" data-bs-ride="carousel">
+    <!-- Indicators (Netflix-style dots) -->
+    <div class="carousel-indicators">
+      {% for banner in banners %}
+      <button type="button" data-bs-target="#streamingBanner" data-bs-slide-to="{{ forloop.counter0 }}" 
+              class="{% if forloop.first %}active{% endif %}" 
+              style="width: 10px; height: 10px; border-radius: 50%; background: rgba(255,255,255,0.5); border: none; margin: 0 4px; transition: all 0.3s ease;">
+      </button>
+      {% endfor %}
+    </div>
+    
+    <!-- Slides -->
+    <div class="carousel-inner h-100">
+      {% for banner in banners %}
+      <div class="carousel-item h-100 {% if forloop.first %}active{% endif %}" data-bs-interval="4000">
+        <div class="position-relative h-100 w-100">
+          <!-- Main banner image -->
+          <img src="{{ banner.image.url }}" class="d-block w-100 h-100" alt="{{ banner.title }}" 
+               style="object-fit: cover; object-position: center;">
+          
+          <!-- Gradient overlay (Amazon-style) -->
+          <div class="position-absolute top-0 start-0 w-100 h-100" 
+               style="background: linear-gradient(to right, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0) 100%);"></div>
+          
+          <!-- Banner content (Prime Video-style) -->
+          <div class="banner-content position-absolute bottom-0 start-0 text-white p-4 p-md-5" 
+               style="max-width: 600px; z-index: 2; transform: translateY(-10%);">
+            <h1 class="display-4 fw-bold mb-3" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">{{ banner.title }}</h1>
+            <p class="lead mb-4 d-none d-md-block" style="font-size: 1.25rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">{{ banner.subtitle }}</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="{{ banner.product.get_absolute_url }}" class="btn btn-danger btn-lg px-4 py-2" style="min-width: 150px;">
+                <i class="bi bi-cart3 me-2"></i> Shop Now
+              </a>
+              <button class="btn btn-outline-light btn-lg px-4 py-2" style="min-width: 150px;">
+                <i class="bi bi-info-circle me-2"></i> Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    
+    <!-- Navigation Controls (Amazon-style) -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#streamingBanner" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true" 
+            style="background-color: rgba(0,0,0,0.5); border-radius: 50%; width: 50px; height: 50px; background-size: 1.5rem;"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#streamingBanner" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true" 
+            style="background-color: rgba(0,0,0,0.5); border-radius: 50%; width: 50px; height: 50px; background-size: 1.5rem;"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<!-- Categories Section -->
+<section class="py-5">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">Shop by Category</h2>
+            <p class="text-muted">Browse our popular categories</p>
+        </div>
+        <div class="row g-4">
+            {% for category in categories|slice:":4" %}
+            <div class="col-md-3">
+                <a href="#" class="text-decoration-none">
+                    <div class="category-card text-center p-4 bg-white rounded-3 shadow-sm">
+                        <div class="icon-box bg-light-primary rounded-circle p-3 mb-3 mx-auto" style="width: 80px; height: 80px;">
+                            <i class="bi bi-tag fs-3 text-primary"></i>
+                        </div>
+                        <h5 class="mb-0">{{ category.name }}</h5>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Featured Products -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-5">
+            <div>
+                <h2 class="fw-bold">Featured Products</h2>
+                <p class="text-muted mb-0">Our most popular items</p>
+            </div>
+            <a href="{% url 'product_list' %}" class="btn btn-outline-primary">View All</a>
+        </div>
+        <div class="row g-4">
+            {% for product in featured_products|slice:":4" %}
+            <div class="col-md-3">
+                <div class="product-card card h-100 border-0 shadow-sm">
+                    {% if product.is_featured %}
+                    <div class="badge bg-danger position-absolute" style="top: 10px; right: 10px">Hot</div>
+                    {% endif %}
+                    <a href="{% url 'product_detail' product.id %}">
+                        <img src="{{ product.image.url }}" class="card-img-top p-3" alt="{{ product.name }}" style="height: 200px; object-fit: contain;">
+                    </a>
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between mb-2">
+                            <span class="text-muted">{{ product.category.name }}</span>
+                            <div class="text-warning">
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-fill"></i>
+                                <i class="bi bi-star-half"></i>
+                            </div>
+                        </div>
+                        <h5 class="card-title">{{ product.name }}</h5>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="fw-bold text-primary">${{ product.price }}</span>
+                                {% if product.old_price %}
+                                <span class="text-decoration-line-through text-muted small ms-2">${{ product.old_price }}</span>
+                                {% endif %}
+                            </div>
+                            <a href="{% url 'product_detail' product.id %}" class="btn btn-sm btn-outline-primary">View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Promo Banner -->
+<section class="py-5">
+    <div class="container">
+        <div class="row g-0 bg-primary rounded-3 overflow-hidden">
+            <div class="col-md-6 p-5 text-white">
+                <h2 class="fw-bold mb-3">Limited Time Offer</h2>
+                <p class="mb-4">Get 30% off on all new arrivals. Use code: NEW30 at checkout.</p>
+                <a href="{% url 'product_list' %}" class="btn btn-light">Shop Now</a>
+            </div>
+            <div class="col-md-6 d-none d-md-block">
+                <img src="https://via.placeholder.com/600x300" alt="Promo Banner" class="img-fluid h-100" style="object-fit: cover;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="py-5 bg-white">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">What Our Customers Say</h2>
+            <p class="text-muted">Trusted by thousands of happy customers</p>
+        </div>
+        <div class="row g-4">
+            {% for review in testimonials|slice:":3" %}
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <div class="text-warning mb-3">
+                            {% for _ in "12345" %}
+                            <i class="bi bi-star-fill"></i>
+                            {% endfor %}
+                        </div>
+                        <p class="card-text mb-4">"{{ review.comment }}"</p>
+                        <div class="d-flex align-items-center">
+                            <img src="{% static 'images/default-avatar.jpg' %}" class="rounded-circle me-3" width="50" height="50" alt="{{ review.user.username }}">
+                            <div>
+                                <h6 class="mb-0">{{ review.user.username }}</h6>
+                                <small class="text-muted">{{ review.created_at|date:"F Y" }}</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<style>
+  /* Enhanced Streaming-Style Carousel */
+  .banner-container {
+    position: relative;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    margin-top: -1px;
+    border-radius: 0;
+  }
+  
+  .carousel-indicators button {
+    transition: all 0.3s ease;
+  }
+  
+  .carousel-indicators button.active {
+    background: white !important;
+    transform: scale(1.2);
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    width: 8%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 3;
+  }
+  
+  .banner-container:hover .carousel-control-prev,
+  .banner-container:hover .carousel-control-next {
+    opacity: 1;
+  }
+  
+  /* Netflix-style fade effect between slides */
+  .carousel-item {
+    transition: transform 0.6s ease-in-out, opacity 0.3s ease-out;
+  }
+  
+  /* Category and Product Cards */
+  .category-card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .banner-container {
+      height: 50vh !important;
+      min-height: 400px;
+    }
+    
+    .banner-content {
+      max-width: 100% !important;
+      padding: 2rem !important;
+      transform: none !important;
+    }
+    
+    .banner-content h1 {
+      font-size: 2rem !important;
+    }
+    
+    .banner-content p {
+      display: none !important;
+    }
+  }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Initialize enhanced carousel
+  const streamingCarousel = new bootstrap.Carousel('#streamingBanner', {
+    interval: 4000,
+    wrap: true,
+    pause: "hover",
+    touch: true
+  });
+  
+  // Add touch swipe support
+  const bannerElement = document.getElementById('streamingBanner');
+  let touchStartX = 0;
+  let touchEndX = 0;
+  
+  bannerElement.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].screenX;
+  }, { passive: true });
+  
+  bannerElement.addEventListener('touchend', e => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+  }, { passive: true });
+  
+  function handleSwipe() {
+    if (touchEndX < touchStartX - 30) {
+      streamingCarousel.next();
+    }
+    if (touchEndX > touchStartX + 30) {
+      streamingCarousel.prev();
+    }
+  }
+  
+  // Add parallax effect on scroll
+  window.addEventListener('scroll', function() {
+    const scrollPosition = window.pageYOffset;
+    const banner = document.querySelector('.banner-container');
+    if (banner) {
+      banner.style.transform = `translateY(${scrollPosition * 0.3}px)`;
+    }
+  });
+  
+  // Add hover effects to cards
+  document.querySelectorAll('.product-card, .category-card').forEach(card => {
+    card.style.transition = 'all 0.3s ease';
+    
+    card.addEventListener('mouseenter', () => {
+      card.style.transform = 'translateY(-5px)';
+    });
+    
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = '';
+    });
+  });
+  
+  // Auto-advance carousel with animation
+  setInterval(() => {
+    if (!document.querySelector('#streamingBanner:hover')) {
+      streamingCarousel.next();
+    }
+  }, 4000);
+});
+</script>
+{% endblock %}
