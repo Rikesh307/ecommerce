@@ -1,0 +1,11 @@
+---
+services:
+  postgres:
+    command: -c "max_connections=200"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    image: "postgres:15.5-alpine"
+    ports:
+      - 5432:5432
+version: "3.2"
