@@ -1,11 +1,19 @@
----
+version: "3.2"
 services:
   postgres:
+    image: "postgres:15.5-alpine"
     command: -c "max_connections=200"
     environment:
       - POSTGRES_USER=postgres
       - POSTGRES_PASSWORD=postgres
-    image: "postgres:15.5-alpine"
     ports:
       - 5432:5432
-version: "3.2"
+
+  web:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - 8000:8000
+    depends_on:
+      - postgres

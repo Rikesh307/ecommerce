@@ -1,14 +1,12 @@
-# products/views.py
-""""
+"""
 from django.shortcuts import render
 from .models import Product  # Import your Product model
 
 def product_list(request):
     products = Product.objects.all()  # Fetch all products from DB
     return render(request, 'products/product_list.html', {'products': products})"
-    """
+"""
 # products/viwes.py
-# products/views.py
 from django.shortcuts import render, get_object_or_404, redirect
 from .forms import BannerForm 
 from .models import Product, Category, Banner, Review
