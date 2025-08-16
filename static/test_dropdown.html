@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category Dropdown Test</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .test-section { margin: 20px 0; padding: 20px; border: 1px solid #ccc; }
+        .success { color: green; }
+        .error { color: red; }
+    </style>
+</head>
+<body>
+    <h1>🔧 Category Dropdown Development Test</h1>
+    
+    <div class="test-section">
+        <h2>Test Instructions</h2>
+        <p>To test the category dropdown functionality:</p>
+        <ol>
+            <li><strong>Click on the #selectedCategory element</strong> ("All Categories" span)</li>
+            <li><strong>Verify dropdown opens</strong> showing category options</li>
+            <li><strong>Click on category links</strong> like Sports, Electronics, etc.</li>
+            <li><strong>Verify navigation</strong> to product pages with category filters</li>
+        </ol>
+    </div>
+
+    <div class="test-section">
+        <h2>Expected Category Options</h2>
+        <ul>
+            <li>📱 <strong>Electronics</strong> - Link: /products/?category=electronics</li>
+            <li>👜 <strong>Fashion</strong> - Link: /products/?category=fashion</li>
+            <li>🏠 <strong>Home & Garden</strong> - Link: /products/?category=home-garden</li>
+            <li>🚴 <strong>Sports</strong> - Link: /products/?category=sports</li>
+            <li>📚 <strong>Books</strong> - Link: /products/?category=books</li>
+            <li>❤️ <strong>Beauty</strong> - Link: /products/?category=beauty</li>
+            <li>🚗 <strong>Automotive</strong> - Link: /products/?category=automotive</li>
+            <li>🤖 <strong>Toys</strong> - Link: /products/?category=toys</li>
+            <li>⭐ <strong>Featured Products</strong> - Link: /products/?featured=true</li>
+            <li>💰 <strong>Sale Items</strong> - Link: /products/?sale=true</li>
+        </ul>
+    </div>
+
+    <div class="test-section">
+        <h2>JavaScript Console Tests</h2>
+        <p>Open browser console and run these tests:</p>
+        <pre>
+// Test 1: Check if selectedCategory element exists
+console.log('selectedCategory element:', document.getElementById('selectedCategory'));
+
+// Test 2: Check dropdown toggle functionality
+document.getElementById('selectedCategory').click();
+
+// Test 3: Check category items
+console.log('Category items:', document.querySelectorAll('.category-item'));
+
+// Test 4: Test category click
+document.querySelector('[data-category="sports"]').click();
+        </pre>
+    </div>
+
+    <div class="test-section">
+        <h2>Development Server</h2>
+        <p>Server running at: <a href="http://127.0.0.1:8000/" target="_blank">http://127.0.0.1:8000/</a></p>
+        <p>Click the link above to test the actual dropdown functionality!</p>
+    </div>
+
+    <script>
+        console.log('🔧 Category Dropdown Test Page Loaded');
+        console.log('✅ Ready to test dropdown functionality');
+    </script>
+</body>
+</html>

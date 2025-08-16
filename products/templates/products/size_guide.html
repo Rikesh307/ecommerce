@@ -1,0 +1,297 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ page_title }} - Riya Group{% endblock %}
+{% block meta_description %}{{ page_description }}{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-10 mx-auto">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bold text-primary">Size Guide</h1>
+                <p class="lead text-muted">Find your perfect fit with our comprehensive size charts and measuring tips.</p>
+            </div>
+
+            <!-- Size Chart Categories -->
+            <div class="row g-4 mb-5">
+                <div class="col-md-3 col-6">
+                    <div class="card border-0 shadow-sm text-center h-100">
+                        <div class="card-body p-4">
+                            <i class="bi bi-person text-primary fs-1 mb-3"></i>
+                            <h5 class="card-title">Clothing</h5>
+                            <p class="card-text small text-muted">Men's & Women's Apparel</p>
+                            <a href="#clothing-sizes" class="btn btn-outline-primary btn-sm">View Sizes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card border-0 shadow-sm text-center h-100">
+                        <div class="card-body p-4">
+                            <i class="bi bi-stopwatch text-primary fs-1 mb-3"></i>
+                            <h5 class="card-title">Footwear</h5>
+                            <p class="card-text small text-muted">Shoes & Sandals</p>
+                            <a href="#footwear-sizes" class="btn btn-outline-primary btn-sm">View Sizes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card border-0 shadow-sm text-center h-100">
+                        <div class="card-body p-4">
+                            <i class="bi bi-gem text-primary fs-1 mb-3"></i>
+                            <h5 class="card-title">Accessories</h5>
+                            <p class="card-text small text-muted">Rings, Belts & More</p>
+                            <a href="#accessories-sizes" class="btn btn-outline-primary btn-sm">View Sizes</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-6">
+                    <div class="card border-0 shadow-sm text-center h-100">
+                        <div class="card-body p-4">
+                            <i class="bi bi-rulers text-primary fs-1 mb-3"></i>
+                            <h5 class="card-title">Measuring</h5>
+                            <p class="card-text small text-muted">How to Measure</p>
+                            <a href="#measuring-guide" class="btn btn-outline-primary btn-sm">Learn How</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Clothing Sizes -->
+            <div id="clothing-sizes" class="mb-5">
+                <h3 class="text-primary mb-4">Clothing Size Charts</h3>
+                
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-primary text-white">
+                                <h5 class="mb-0">Men's Clothing</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th>Size</th>
+                                                <th>Chest (inches)</th>
+                                                <th>Waist (inches)</th>
+                                                <th>Hip (inches)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr><td>XS</td><td>32-34</td><td>28-30</td><td>32-34</td></tr>
+                                            <tr><td>S</td><td>34-36</td><td>30-32</td><td>34-36</td></tr>
+                                            <tr><td>M</td><td>36-38</td><td>32-34</td><td>36-38</td></tr>
+                                            <tr><td>L</td><td>38-40</td><td>34-36</td><td>38-40</td></tr>
+                                            <tr><td>XL</td><td>40-42</td><td>36-38</td><td>40-42</td></tr>
+                                            <tr><td>XXL</td><td>42-44</td><td>38-40</td><td>42-44</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-4">
+                        <div class="card border-0 shadow-sm">
+                            <div class="card-header bg-danger text-white">
+                                <h5 class="mb-0">Women's Clothing</h5>
+                            </div>
+                            <div class="card-body">
+                                <div class="table-responsive">
+                                    <table class="table table-sm">
+                                        <thead>
+                                            <tr>
+                                                <th>Size</th>
+                                                <th>Bust (inches)</th>
+                                                <th>Waist (inches)</th>
+                                                <th>Hip (inches)</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr><td>XS</td><td>30-32</td><td>24-26</td><td>32-34</td></tr>
+                                            <tr><td>S</td><td>32-34</td><td>26-28</td><td>34-36</td></tr>
+                                            <tr><td>M</td><td>34-36</td><td>28-30</td><td>36-38</td></tr>
+                                            <tr><td>L</td><td>36-38</td><td>30-32</td><td>38-40</td></tr>
+                                            <tr><td>XL</td><td>38-40</td><td>32-34</td><td>40-42</td></tr>
+                                            <tr><td>XXL</td><td>40-42</td><td>34-36</td><td>42-44</td></tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footwear Sizes -->
+            <div id="footwear-sizes" class="mb-5">
+                <h3 class="text-primary mb-4">Footwear Size Charts</h3>
+                
+                <div class="card border-0 shadow-sm">
+                    <div class="card-header bg-success text-white">
+                        <h5 class="mb-0">Shoe Size Conversion</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>US Men</th>
+                                        <th>US Women</th>
+                                        <th>UK</th>
+                                        <th>EU</th>
+                                        <th>Length (cm)</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>6</td><td>7.5</td><td>5.5</td><td>39</td><td>24.5</td></tr>
+                                    <tr><td>7</td><td>8.5</td><td>6.5</td><td>40</td><td>25.0</td></tr>
+                                    <tr><td>8</td><td>9.5</td><td>7.5</td><td>41</td><td>25.5</td></tr>
+                                    <tr><td>9</td><td>10.5</td><td>8.5</td><td>42</td><td>26.0</td></tr>
+                                    <tr><td>10</td><td>11.5</td><td>9.5</td><td>43</td><td>26.5</td></tr>
+                                    <tr><td>11</td><td>12.5</td><td>10.5</td><td>44</td><td>27.0</td></tr>
+                                    <tr><td>12</td><td>13.5</td><td>11.5</td><td>45</td><td>27.5</td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Measuring Guide -->
+            <div id="measuring-guide" class="mb-5">
+                <h3 class="text-primary mb-4">How to Measure</h3>
+                
+                <div class="row g-4">
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-4">
+                                <h5 class="card-title text-primary">
+                                    <i class="bi bi-rulers me-2"></i>Body Measurements
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="mb-3">
+                                        <strong>Chest/Bust:</strong> Measure around the fullest part of your chest/bust, keeping the tape parallel to the floor.
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>Waist:</strong> Measure around your natural waistline, keeping the tape comfortably loose.
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>Hip:</strong> Measure around the fullest part of your hips, about 7-9 inches below your waist.
+                                    </li>
+                                    <li class="mb-3">
+                                        <strong>Sleeve Length:</strong> Measure from the center back of your neck to your wrist with your arm slightly bent.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card border-0 shadow-sm h-100">
+                            <div class="card-body p-4">
+                                <h5 class="card-title text-success">
+                                    <i class="bi bi-patch-check me-2"></i>Measuring Tips
+                                </h5>
+                                <ul class="list-unstyled">
+                                    <li class="mb-3">
+                                        <i class="bi bi-check-circle text-success me-2"></i>
+                                        Use a flexible measuring tape
+                                    </li>
+                                    <li class="mb-3">
+                                        <i class="bi bi-check-circle text-success me-2"></i>
+                                        Measure over undergarments or form-fitting clothes
+                                    </li>
+                                    <li class="mb-3">
+                                        <i class="bi bi-check-circle text-success me-2"></i>
+                                        Keep the tape snug but not tight
+                                    </li>
+                                    <li class="mb-3">
+                                        <i class="bi bi-check-circle text-success me-2"></i>
+                                        Take measurements at the end of the day when your body is at its largest
+                                    </li>
+                                    <li class="mb-3">
+                                        <i class="bi bi-check-circle text-success me-2"></i>
+                                        Have someone help you for more accurate measurements
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Size Recommendation -->
+            <div class="card border-info">
+                <div class="card-header bg-info text-white">
+                    <h4 class="mb-0">
+                        <i class="bi bi-lightbulb me-2"></i>Size Recommendations
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h6 class="text-info">Between Sizes?</h6>
+                            <p class="small">If you're between sizes, we generally recommend:</p>
+                            <ul class="small">
+                                <li>For a loose fit: Choose the larger size</li>
+                                <li>For a fitted look: Choose the smaller size</li>
+                                <li>For activewear: Choose your exact measurements</li>
+                            </ul>
+                        </div>
+                        <div class="col-md-6">
+                            <h6 class="text-info">Need Help?</h6>
+                            <p class="small">Our customer service team can help you choose the right size:</p>
+                            <div class="d-flex gap-2 flex-wrap">
+                                <a href="{% url 'products:contact' %}" class="btn btn-outline-info btn-sm">
+                                    <i class="bi bi-envelope me-1"></i>Contact Us
+                                </a>
+                                <a href="{% url 'products:support' %}" class="btn btn-outline-info btn-sm">
+                                    <i class="bi bi-chat-dots me-1"></i>Live Chat
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Return Policy Note -->
+            <div class="text-center mt-4">
+                <div class="alert alert-success">
+                    <h6 class="alert-heading">
+                        <i class="bi bi-shield-check me-2"></i>Easy Returns & Exchanges
+                    </h6>
+                    <p class="mb-2">Not sure about the size? No worries! We offer easy returns and exchanges within 30 days.</p>
+                    <a href="{% url 'products:returns' %}" class="btn btn-success btn-sm">
+                        <i class="bi bi-arrow-repeat me-2"></i>Learn About Returns
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.card:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+.table th {
+    background-color: #f8f9fa;
+    font-weight: 600;
+}
+
+.table td, .table th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+@media (max-width: 768px) {
+    .table-responsive {
+        font-size: 0.85rem;
+    }
+}
+</style>
+{% endblock %}

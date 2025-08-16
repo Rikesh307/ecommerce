@@ -1,5 +1,60 @@
+# Core Django
 asgiref==3.8.1
 Django==5.2
-pillow==11.1.0
-psycopg2-binary==2.9.10
 sqlparse==0.5.3
+
+# Database
+psycopg2-binary==2.9.10
+
+# Media handling
+pillow==11.1.0
+
+# Forms and UI
+django-crispy-forms==2.3
+crispy-bootstrap4==2024.1
+
+# Extensions and utilities
+django-taggit==6.1.0
+django-filter==24.3
+django-extensions==3.2.3
+django-humanize==0.1.2
+
+# Environment variables (SDLC Configuration Management)
+python-dotenv==1.0.0
+
+# Cache and session
+redis==5.2.0
+django-redis==5.4.0
+
+# Background tasks
+celery==5.4.0
+
+# Static files and compression
+whitenoise==6.6.0
+#django-compressor==4.4  # Removed due to incompatibility with Django 5.x
+django-storages==1.14.2
+boto3==1.34.0
+
+# Production utilities
+gunicorn==21.2.0
+dj-database-url==2.1.0
+python-decouple==3.8
+
+# Security and monitoring
+sentry-sdk==1.39.2
+
+# Development tools (commented out for production)
+# django-debug-toolbar==4.4.6
+
+# Email
+django-anymail==10.2
+
+# API (if needed)
+djangorestframework==3.14.0
+django-cors-headers==4.3.1
+
+# Environment variables
+python-dotenv==1.0.0
+
+# Payment processing
+stripe==8.0.0

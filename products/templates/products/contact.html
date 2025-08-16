@@ -1,0 +1,187 @@
+{% extends 'base_old.html' %}
+{% load static %}
+
+{% block title %}{{ page_title }} - Riya Group{% endblock %}
+{% block meta_description %}{{ page_description }}{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-8 mx-auto">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bold text-primary">Contact Us</h1>
+                <p class="lead text-muted">We're here to help! Get in touch with our friendly customer service team.</p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Contact Information -->
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <h4 class="card-title text-primary mb-4">
+                                <i class="bi bi-info-circle me-2"></i>Contact Information
+                            </h4>
+                            
+                            <div class="contact-item mb-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-geo-alt text-primary fs-5 me-3"></i>
+                                    <div>
+                                        <h6 class="mb-1">Address</h6>
+                                        <p class="mb-0 text-muted">Kathmandu, Nepal</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-item mb-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-telephone text-primary fs-5 me-3"></i>
+                                    <div>
+                                        <h6 class="mb-1">Phone</h6>
+                                        <p class="mb-0 text-muted">+977-1-XXXXXXX</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-item mb-3">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-envelope text-primary fs-5 me-3"></i>
+                                    <div>
+                                        <h6 class="mb-1">Email</h6>
+                                        <p class="mb-0 text-muted">support@riyagroup.com</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="contact-item">
+                                <div class="d-flex align-items-center">
+                                    <i class="bi bi-clock text-primary fs-5 me-3"></i>
+                                    <div>
+                                        <h6 class="mb-1">Business Hours</h6>
+                                        <p class="mb-0 text-muted">Mon - Fri: 9:00 AM - 6:00 PM</p>
+                                        <p class="mb-0 text-muted">Sat - Sun: 10:00 AM - 4:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Form -->
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <h4 class="card-title text-primary mb-4">
+                                <i class="bi bi-chat-dots me-2"></i>Send us a Message
+                            </h4>
+                            
+                            <form method="post" id="contact-form">
+                                {% csrf_token %}
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Full Name</label>
+                                    <input type="text" class="form-control" id="name" name="name" required>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email Address</label>
+                                    <input type="email" class="form-control" id="email" name="email" required>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="subject" class="form-label">Subject</label>
+                                    <select class="form-select" id="subject" name="subject" required>
+                                        <option value="">Choose a subject</option>
+                                        <option value="general">General Inquiry</option>
+                                        <option value="order">Order Support</option>
+                                        <option value="product">Product Question</option>
+                                        <option value="shipping">Shipping & Delivery</option>
+                                        <option value="returns">Returns & Refunds</option>
+                                        <option value="technical">Technical Support</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" name="message" rows="5" required placeholder="Please describe your inquiry..."></textarea>
+                                </div>
+                                
+                                <button type="submit" class="btn btn-primary btn-lg w-100">
+                                    <i class="bi bi-send me-2"></i>Send Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional Support Options -->
+            <div class="row g-4 mt-4">
+                <div class="col-12">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4">
+                            <h5 class="card-title text-center text-primary mb-4">Need Immediate Help?</h5>
+                            <div class="row text-center">
+                                <div class="col-md-3 col-6 mb-3">
+                                    <a href="{% url 'products:faq' %}" class="text-decoration-none">
+                                        <div class="p-3 border rounded hover-shadow">
+                                            <i class="bi bi-question-circle text-primary fs-2 mb-2"></i>
+                                            <h6 class="mb-1">FAQ</h6>
+                                            <small class="text-muted">Common Questions</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-6 mb-3">
+                                    <a href="{% url 'products:support' %}" class="text-decoration-none">
+                                        <div class="p-3 border rounded hover-shadow">
+                                            <i class="bi bi-headset text-primary fs-2 mb-2"></i>
+                                            <h6 class="mb-1">Live Chat</h6>
+                                            <small class="text-muted">24/7 Support</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-6 mb-3">
+                                    <a href="{% url 'products:track_order' %}" class="text-decoration-none">
+                                        <div class="p-3 border rounded hover-shadow">
+                                            <i class="bi bi-box-seam text-primary fs-2 mb-2"></i>
+                                            <h6 class="mb-1">Track Order</h6>
+                                            <small class="text-muted">Order Status</small>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-6 mb-3">
+                                    <a href="{% url 'products:returns' %}" class="text-decoration-none">
+                                        <div class="p-3 border rounded hover-shadow">
+                                            <i class="bi bi-arrow-repeat text-primary fs-2 mb-2"></i>
+                                            <h6 class="mb-1">Returns</h6>
+                                            <small class="text-muted">Easy Returns</small>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.hover-shadow {
+    transition: all 0.3s ease;
+}
+
+.hover-shadow:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+    transform: translateY(-2px);
+}
+
+.contact-item {
+    padding: 1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+</style>
+{% endblock %}

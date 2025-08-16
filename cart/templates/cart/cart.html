@@ -1,0 +1,265 @@
+{% extends 'base.html' %}
+
+{% block title %}Shopping Cart - Riya Group{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-12">
+            <div class="card shadow-lg border-0" style="border-radius: 15px;">
+                <div class="card-header text-center py-4" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 15px 15px 0 0; color: white;">
+                    <h2 class="mb-0 fw-bold">Shopping Cart</h2>
+                </div>
+                <div class="card-body p-4">
+                    {% if messages %}
+                        {% for message in messages %}
+                            <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+                                {{ message }}
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            </div>
+                        {% endfor %}
+                    {% endif %}
+                    
+                    {% if cart_items %}
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead style="background-color: #f8f9fa;">
+                                    <tr>
+                                        <th scope="col">Product</th>
+                                        <th scope="col">Price</th>
+                                        <th scope="col">Quantity</th>
+                                        <th scope="col">Total</th>
+                                        <th scope="col">Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {% for item in cart_items %}
+                                    <tr id="cart-item-{{ item.id }}">
+                                        <td>
+                                            <div class="d-flex align-items-center">
+                                                {% if item.product.image %}
+                                                    <img src="{{ item.product.image.url }}" alt="{{ item.product.name }}" 
+                                                         class="me-3" style="width: 80px; height: 80px; object-fit: cover; border-radius: 8px;">
+                                                {% else %}
+                                                    <div class="me-3 d-flex align-items-center justify-content-center" 
+                                                         style="width: 80px; height: 80px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 8px; color: white;">
+                                                        <i class="fas fa-image fa-2x"></i>
+                                                    </div>
+                                                {% endif %}
+                                                <div>
+                                                    <h6 class="mb-1 fw-bold">{{ item.product.name }}</h6>
+                                                    <small class="text-muted">{{ item.product.category|default:"General" }}</small>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">
+                                            <span class="fw-bold" style="color: #667eea;">${{ item.product.price }}</span>
+                                        </td>
+                                        <td class="align-middle">
+                                            <div class="input-group" style="width: 130px;">
+                                                <button class="btn btn-outline-secondary btn-sm quantity-btn" 
+                                                        type="button" data-action="decrease" data-item-id="{{ item.id }}">
+                                                    <i class="fas fa-minus"></i>
+                                                </button>
+                                                <input type="number" class="form-control text-center quantity-input" 
+                                                       id="quantity-{{ item.id }}" value="{{ item.quantity }}" 
+                                                       min="1" data-item-id="{{ item.id }}">
+                                                <button class="btn btn-outline-secondary btn-sm quantity-btn" 
+                                                        type="button" data-action="increase" data-item-id="{{ item.id }}">
+                                                    <i class="fas fa-plus"></i>
+                                                </button>
+                                            </div>
+                                        </td>
+                                        <td class="align-middle">
+                                            <span class="fw-bold item-total" id="total-{{ item.id }}" style="color: #27ae60;">
+                                                ${{ item.get_total_price }}
+                                            </span>
+                                        </td>
+                                        <td class="align-middle">
+                                            <button class="btn btn-outline-danger btn-sm remove-item" 
+                                                    data-item-id="{{ item.id }}" title="Remove item">
+                                                <i class="fas fa-trash"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    {% endfor %}
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <div class="row mt-4">
+                            <div class="col-md-8">
+                                <a href="{% url 'products:product_list' %}" class="btn btn-outline-primary btn-lg" style="border-radius: 10px;">
+                                    <i class="fas fa-arrow-left me-2"></i>Continue Shopping
+                                </a>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card border-0" style="background-color: #f8f9fa; border-radius: 10px;">
+                                    <div class="card-body text-center">
+                                        <h5 class="fw-bold" style="color: #2c3e50;">Cart Total</h5>
+                                        <h3 class="fw-bold" style="color: #27ae60;" id="cart-total">${{ cart_total }}</h3>
+                                        <a href="{% url 'orders:checkout' %}" class="btn btn-lg mt-3" 
+                                           style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: none; color: white; border-radius: 10px; width: 100%;">
+                                            <i class="fas fa-credit-card me-2"></i>Proceed to Checkout
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    {% else %}
+                        <div class="text-center py-5">
+                            <div class="mb-4">
+                                <i class="fas fa-shopping-cart fa-5x text-muted"></i>
+                            </div>
+                            <h3 class="fw-bold" style="color: #2c3e50;">Your cart is empty</h3>
+                            <p class="text-muted mb-4">Looks like you haven't added anything to your cart yet.</p>
+                            <a href="{% url 'products:product_list' %}" class="btn btn-lg" 
+                               style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: none; color: white; border-radius: 10px;">
+                                <i class="fas fa-shopping-bag me-2"></i>Start Shopping
+                            </a>
+                        </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Function to get CSRF token from cookies
+    function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+    
+    // Quantity buttons
+    document.querySelectorAll('.quantity-btn').forEach(button => {
+        button.addEventListener('click', function() {
+            const action = this.dataset.action;
+            const itemId = this.dataset.itemId;
+            const quantityInput = document.getElementById(`quantity-${itemId}`);
+            let quantity = parseInt(quantityInput.value);
+            
+            if (action === 'increase') {
+                quantity += 1;
+            } else if (action === 'decrease' && quantity > 1) {
+                quantity -= 1;
+            }
+            
+            quantityInput.value = quantity;
+            updateCartItem(itemId, quantity);
+        });
+    });
+    
+    // Quantity input change
+    document.querySelectorAll('.quantity-input').forEach(input => {
+        input.addEventListener('change', function() {
+            const itemId = this.dataset.itemId;
+            let quantity = parseInt(this.value);
+            
+            if (quantity < 1) {
+                quantity = 1;
+                this.value = quantity;
+            }
+            
+            updateCartItem(itemId, quantity);
+        });
+    });
+    
+    // Remove item buttons
+    document.querySelectorAll('.remove-item').forEach(button => {
+        button.addEventListener('click', function() {
+            const itemId = this.dataset.itemId;
+            removeCartItem(itemId);
+        });
+    });
+    
+    function updateCartItem(itemId, quantity) {
+        fetch(`{% url 'cart:update_cart' %}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+                'X-CSRFToken': getCookie('csrftoken')
+            },
+            body: JSON.stringify({
+                item_id: itemId,
+                quantity: quantity
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // Update item total
+                document.getElementById(`total-${itemId}`).textContent = `$${data.item_total}`;
+                // Update cart total
+                document.getElementById('cart-total').textContent = `$${data.cart_total}`;
+                // Update cart count in header if it exists
+                const cartCount = document.querySelector('.cart-count');
+                if (cartCount) {
+                    cartCount.textContent = data.cart_count;
+                }
+            } else {
+                alert('Error updating cart item');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Error updating cart item');
+        });
+    }
+    
+    function removeCartItem(itemId) {
+        if (confirm('Are you sure you want to remove this item from your cart?')) {
+            fetch(`{% url 'cart:remove_from_cart' %}`, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': getCookie('csrftoken')
+                },
+                body: JSON.stringify({
+                    item_id: itemId
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Remove the row
+                    document.getElementById(`cart-item-${itemId}`).remove();
+                    // Update cart total
+                    document.getElementById('cart-total').textContent = `$${data.cart_total}`;
+                    // Update cart count in header if it exists
+                    const cartCount = document.querySelector('.cart-count');
+                    if (cartCount) {
+                        cartCount.textContent = data.cart_count;
+                    }
+                    
+                    // If cart is empty, reload the page to show empty cart message
+                    if (data.cart_count === 0) {
+                        location.reload();
+                    }
+                } else {
+                    alert('Error removing item from cart');
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error removing item from cart');
+            });
+        }
+    }
+});
+</script>
+
+{% csrf_token %}
+{% endblock %}

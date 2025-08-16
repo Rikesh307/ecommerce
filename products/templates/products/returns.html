@@ -1,0 +1,416 @@
+{% extends 'base_old.html' %}
+{% load static %}
+
+{% block title %}{{ page_title }} - Riya Group{% endblock %}
+{% block meta_description %}{{ page_description }}{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-10 mx-auto">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bold text-primary">Returns & Exchange Policy</h1>
+                <p class="lead text-muted">We want you to be completely satisfied with your purchase. Easy returns and exchanges within 30 days.</p>
+            </div>
+
+            <!-- Return Process Steps -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h3 class="text-primary text-center mb-4">Easy 3-Step Return Process</h3>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card border-0 shadow-sm text-center h-100">
+                                <div class="card-body p-4">
+                                    <div class="bg-primary bg-gradient text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                        <span class="fw-bold fs-3">1</span>
+                                    </div>
+                                    <h5 class="card-title text-primary">Initiate Return</h5>
+                                    <p class="card-text text-muted">Request a return online or contact customer service within 30 days of delivery.</p>
+                                    <button class="btn btn-outline-primary" onclick="showReturnForm()">Start Return</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card border-0 shadow-sm text-center h-100">
+                                <div class="card-body p-4">
+                                    <div class="bg-warning bg-gradient text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                        <span class="fw-bold fs-3">2</span>
+                                    </div>
+                                    <h5 class="card-title text-warning">Pack & Ship</h5>
+                                    <p class="card-text text-muted">Pack the item in original packaging with return label and ship it back to us.</p>
+                                    <small class="text-muted">Free return shipping on eligible items</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 mb-4">
+                            <div class="card border-0 shadow-sm text-center h-100">
+                                <div class="card-body p-4">
+                                    <div class="bg-success bg-gradient text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                        <span class="fw-bold fs-3">3</span>
+                                    </div>
+                                    <h5 class="card-title text-success">Get Refunded</h5>
+                                    <p class="card-text text-muted">Receive your refund within 5-7 business days after we receive your return.</p>
+                                    <small class="text-muted">Refund to original payment method</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Return Policy Details -->
+            <div class="row mb-5">
+                <div class="col-md-6">
+                    <div class="card border-success h-100">
+                        <div class="card-header bg-success text-white">
+                            <h4 class="mb-0">
+                                <i class="bi bi-check-circle me-2"></i>What Can Be Returned
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-3">
+                                    <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    <strong>Most items within 30 days</strong>
+                                    <br><small class="text-muted">From the date of delivery</small>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    <strong>Items in original condition</strong>
+                                    <br><small class="text-muted">Unused, unworn, with tags attached</small>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    <strong>Original packaging included</strong>
+                                    <br><small class="text-muted">Box, manuals, accessories</small>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    <strong>Receipt or order number</strong>
+                                    <br><small class="text-muted">For verification purposes</small>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-check-circle-fill text-success me-2"></i>
+                                    <strong>Defective or damaged items</strong>
+                                    <br><small class="text-muted">Quality issues within warranty</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-danger h-100">
+                        <div class="card-header bg-danger text-white">
+                            <h4 class="mb-0">
+                                <i class="bi bi-x-circle me-2"></i>What Cannot Be Returned
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-3">
+                                    <i class="bi bi-x-circle-fill text-danger me-2"></i>
+                                    <strong>Personalized/Custom items</strong>
+                                    <br><small class="text-muted">Made-to-order products</small>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-x-circle-fill text-danger me-2"></i>
+                                    <strong>Perishable goods</strong>
+                                    <br><small class="text-muted">Food, flowers, magazines</small>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-x-circle-fill text-danger me-2"></i>
+                                    <strong>Digital downloads</strong>
+                                    <br><small class="text-muted">Software, e-books, music</small>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-x-circle-fill text-danger me-2"></i>
+                                    <strong>Intimate/Hygiene items</strong>
+                                    <br><small class="text-muted">For health and safety reasons</small>
+                                </li>
+                                <li class="mb-3">
+                                    <i class="bi bi-x-circle-fill text-danger me-2"></i>
+                                    <strong>Items over 30 days</strong>
+                                    <br><small class="text-muted">Beyond return window</small>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Return Form -->
+            <div class="row mb-5" id="return-form-section" style="display: none;">
+                <div class="col-lg-8 mx-auto">
+                    <div class="card border-primary">
+                        <div class="card-header bg-primary text-white">
+                            <h4 class="mb-0">
+                                <i class="bi bi-arrow-repeat me-2"></i>Initiate Return
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <form id="return-form">
+                                <div class="row g-3">
+                                    <div class="col-md-6">
+                                        <label for="order-number" class="form-label">Order Number *</label>
+                                        <input type="text" class="form-control" id="order-number" placeholder="e.g., RG-2025-001234" required>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <label for="email" class="form-label">Email Address *</label>
+                                        <input type="email" class="form-control" id="email" placeholder="your@email.com" required>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="return-reason" class="form-label">Reason for Return *</label>
+                                        <select class="form-select" id="return-reason" required>
+                                            <option value="">Select a reason</option>
+                                            <option value="defective">Item is defective/damaged</option>
+                                            <option value="wrong-size">Wrong size/doesn't fit</option>
+                                            <option value="wrong-item">Wrong item received</option>
+                                            <option value="not-as-described">Not as described</option>
+                                            <option value="quality">Quality not as expected</option>
+                                            <option value="changed-mind">Changed my mind</option>
+                                            <option value="other">Other (please specify)</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-12" id="other-reason-section" style="display: none;">
+                                        <label for="other-reason" class="form-label">Please specify</label>
+                                        <textarea class="form-control" id="other-reason" rows="3" placeholder="Please describe the reason for return..."></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="return-type" class="form-label">What would you like to do? *</label>
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="return-type" id="refund" value="refund" required>
+                                                    <label class="form-check-label" for="refund">
+                                                        <strong>Refund</strong><br>
+                                                        <small class="text-muted">Get money back</small>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="return-type" id="exchange" value="exchange" required>
+                                                    <label class="form-check-label" for="exchange">
+                                                        <strong>Exchange</strong><br>
+                                                        <small class="text-muted">Different size/color</small>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-4">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="radio" name="return-type" id="replacement" value="replacement" required>
+                                                    <label class="form-check-label" for="replacement">
+                                                        <strong>Replacement</strong><br>
+                                                        <small class="text-muted">Same item (defective)</small>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <label for="additional-comments" class="form-label">Additional Comments</label>
+                                        <textarea class="form-control" id="additional-comments" rows="3" placeholder="Any additional information about your return..."></textarea>
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" id="terms-agree" required>
+                                            <label class="form-check-label" for="terms-agree">
+                                                I agree to the <a href="{% url 'products:terms' %}" target="_blank">return policy terms and conditions</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <button type="submit" class="btn btn-primary btn-lg w-100">
+                                            <i class="bi bi-send me-2"></i>Submit Return Request
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Refund Information -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <div class="card border-info">
+                        <div class="card-header bg-info text-white">
+                            <h4 class="mb-0">
+                                <i class="bi bi-cash-coin me-2"></i>Refund Information
+                            </h4>
+                        </div>
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h5 class="text-info mb-3">Refund Timeline</h5>
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2">
+                                            <i class="bi bi-clock text-info me-2"></i>
+                                            <strong>Processing:</strong> 1-2 business days after receipt
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-credit-card text-info me-2"></i>
+                                            <strong>Credit Card:</strong> 3-5 business days
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-phone text-info me-2"></i>
+                                            <strong>Mobile Banking:</strong> 1-2 business days
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-bank text-info me-2"></i>
+                                            <strong>Bank Transfer:</strong> 2-3 business days
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-md-6">
+                                    <h5 class="text-info mb-3">Refund Methods</h5>
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2">
+                                            <i class="bi bi-arrow-repeat text-info me-2"></i>
+                                            <strong>Original Payment Method:</strong> Preferred option
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-wallet2 text-info me-2"></i>
+                                            <strong>Store Credit:</strong> Instant credit for future purchases
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-bank2 text-info me-2"></i>
+                                            <strong>Bank Transfer:</strong> For COD orders
+                                        </li>
+                                        <li class="mb-2">
+                                            <i class="bi bi-cash text-info me-2"></i>
+                                            <strong>Cash Refund:</strong> At authorized centers
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- FAQ Section -->
+            <div class="row mb-5">
+                <div class="col-12">
+                    <h3 class="text-primary text-center mb-4">Frequently Asked Questions</h3>
+                    <div class="accordion" id="returnsAccordion">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                                    How long do I have to return an item?
+                                </button>
+                            </h2>
+                            <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#returnsAccordion">
+                                <div class="accordion-body">
+                                    You have 30 days from the delivery date to return most items. For electronics and appliances, the return window may vary. Check your order confirmation for specific details.
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                                    Who pays for return shipping?
+                                </button>
+                            </h2>
+                            <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#returnsAccordion">
+                                <div class="accordion-body">
+                                    <ul>
+                                        <li><strong>Free return shipping:</strong> Defective, damaged, or wrong items</li>
+                                        <li><strong>Customer pays:</strong> Change of mind, wrong size, or non-defective returns</li>
+                                        <li><strong>Prepaid labels:</strong> Available for most returns in Kathmandu Valley</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                                    Can I return sale or clearance items?
+                                </button>
+                            </h2>
+                            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#returnsAccordion">
+                                <div class="accordion-body">
+                                    Most sale and clearance items can be returned within the standard 30-day period, but they may only be eligible for store credit rather than a full refund. Final sale items are clearly marked and cannot be returned.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                                    What if I don't have the original packaging?
+                                </button>
+                            </h2>
+                            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#returnsAccordion">
+                                <div class="accordion-body">
+                                    While original packaging is preferred, we can still process returns without it in many cases. However, items must still be in original condition. Contact customer service if you're unsure.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contact Support -->
+            <div class="text-center">
+                <div class="card border-primary">
+                    <div class="card-body p-4">
+                        <h5 class="card-title text-primary">Need Help with Your Return?</h5>
+                        <p class="card-text">Our customer service team is here to make your return process as smooth as possible.</p>
+                        <div class="d-flex gap-2 justify-content-center flex-wrap">
+                            <a href="{% url 'products:contact' %}" class="btn btn-primary">
+                                <i class="bi bi-envelope me-2"></i>Contact Us
+                            </a>
+                            <a href="{% url 'products:support' %}" class="btn btn-outline-primary">
+                                <i class="bi bi-chat-dots me-2"></i>Live Chat
+                            </a>
+                            <a href="{% url 'products:track_order' %}" class="btn btn-outline-primary">
+                                <i class="bi bi-search me-2"></i>Track Return
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+function showReturnForm() {
+    document.getElementById('return-form-section').style.display = 'block';
+    document.getElementById('return-form-section').scrollIntoView({ behavior: 'smooth' });
+}
+
+// Show/hide other reason field
+document.getElementById('return-reason').addEventListener('change', function() {
+    const otherSection = document.getElementById('other-reason-section');
+    if (this.value === 'other') {
+        otherSection.style.display = 'block';
+    } else {
+        otherSection.style.display = 'none';
+    }
+});
+
+// Handle form submission
+document.getElementById('return-form').addEventListener('submit', function(e) {
+    e.preventDefault();
+    alert('Return request submitted successfully! You will receive a confirmation email with return instructions and tracking information.');
+});
+</script>
+
+<style>
+.card:hover {
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--bs-primary);
+    color: white;
+}
+</style>
+{% endblock %}

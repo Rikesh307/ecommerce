@@ -1,18 +1,25 @@
 <!-- product_detail.html -->
-{% extends 'base.html' %}
+{% extends 'base_old.html' %}
 {% load static %}
 
-{% block title %}{{ product.name }} - ShopEase{% endblock %}
+{% block title %}{{ product.name }} - Riya Group{% endblock %}
 
 {% block content %}
 <div class="container my-5">
     <div class="row">
         <!-- Product Image -->
         <div class="col-md-6">
+            {% if product.image %}
             <img src="{{ product.image.url }}" 
                  class="img-fluid rounded-3 shadow" 
                  alt="{{ product.name }}"
                  style="max-height: 500px; object-fit: contain;">
+            {% else %}
+            <div class="img-fluid rounded-3 shadow d-flex align-items-center justify-content-center bg-light" 
+                 style="max-height: 500px; min-height: 300px;">
+                <i class="bi bi-image text-muted" style="font-size: 5rem;"></i>
+            </div>
+            {% endif %}
         </div>
         
         <!-- Product Info -->
@@ -52,22 +59,170 @@
             </div>
             
             <!-- Add to Cart -->
-            <div class="d-flex gap-3 mb-5">
-                <div class="input-group" style="width: 120px;">
-                    <button class="btn btn-outline-secondary">-</button>
-                    <input type="text" class="form-control text-center" value="1">
-                    <button class="btn btn-outline-secondary">+</button>
+            {% if product.stock > 0 %}
+            <form id="add-to-cart-form" method="post">
+                {% csrf_token %}
+                <div class="d-flex gap-3 mb-5">
+                    <div class="input-group" style="width: 120px;">
+                        <button type="button" class="btn btn-outline-secondary" id="decrease-qty">-</button>
+                        <input type="number" class="form-control text-center" id="quantity" name="quantity" value="1" min="1" max="{{ product.stock }}">
+                        <button type="button" class="btn btn-outline-secondary" id="increase-qty">+</button>
+                    </div>
+                    <button type="submit" class="btn btn-lg flex-grow-1" 
+                            style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border: none; color: white; border-radius: 10px;">
+                        <i class="fas fa-cart-plus me-2"></i>Add to Cart
+                    </button>
                 </div>
-                <button class="btn btn-primary flex-grow-1">
-                    <i class="bi bi-cart-plus"></i> Add to Cart
+            </form>
+            {% else %}
+            <div class="d-flex gap-3 mb-5">
+                <button class="btn btn-secondary flex-grow-1" disabled>
+                    <i class="fas fa-times me-2"></i>Out of Stock
                 </button>
             </div>
+            {% endif %}
             
             <!-- Back Button -->
-            <a href="{% url 'product_list' %}" class="btn btn-outline-secondary">
-                <i class="bi bi-arrow-left"></i> Back to Shop
+            <a href="{% url 'products:product_list' %}" class="btn btn-outline-secondary btn-lg" style="border-radius: 10px;">
+                <i class="fas fa-arrow-left me-2"></i>Back to Shop
             </a>
         </div>
     </div>
 </div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Function to get CSRF token from cookies
+    function getCookie(name) {
+        let cookieValue = null;
+        if (document.cookie && document.cookie !== '') {
+            const cookies = document.cookie.split(';');
+            for (let i = 0; i < cookies.length; i++) {
+                const cookie = cookies[i].trim();
+                if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+    
+    const quantityInput = document.getElementById('quantity');
+    const decreaseBtn = document.getElementById('decrease-qty');
+    const increaseBtn = document.getElementById('increase-qty');
+    const addToCartForm = document.getElementById('add-to-cart-form');
+    const maxStock = parseInt('{{ product.stock }}');
+    
+    // Quantity controls
+    decreaseBtn.addEventListener('click', function() {
+        let quantity = parseInt(quantityInput.value);
+        if (quantity > 1) {
+            quantityInput.value = quantity - 1;
+        }
+    });
+    
+    increaseBtn.addEventListener('click', function() {
+        let quantity = parseInt(quantityInput.value);
+        if (quantity < maxStock) {
+            quantityInput.value = quantity + 1;
+        }
+    });
+    
+    // Validate quantity input
+    quantityInput.addEventListener('change', function() {
+        let quantity = parseInt(this.value);
+        if (quantity < 1) {
+            this.value = 1;
+        } else if (quantity > maxStock) {
+            this.value = maxStock;
+        }
+    });
+    
+    // Add to cart form submission
+    if (addToCartForm) {
+        addToCartForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const quantity = quantityInput.value;
+            const submitBtn = this.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+            
+            // Disable button and show loading
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Adding...';
+            
+            fetch('{% url "cart:add_to_cart" product.id %}', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CSRFToken': getCookie('csrftoken')
+                },
+                body: JSON.stringify({
+                    quantity: quantity
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    // Show success message
+                    showMessage('Product added to cart successfully!', 'success');
+                    
+                    // Update cart count in header if it exists
+                    const cartCount = document.querySelector('.cart-count');
+                    if (cartCount) {
+                        cartCount.textContent = data.cart_count;
+                    }
+                    
+                    // Reset button
+                    submitBtn.innerHTML = '<i class="fas fa-check me-2"></i>Added!';
+                    setTimeout(() => {
+                        submitBtn.innerHTML = originalText;
+                        submitBtn.disabled = false;
+                    }, 2000);
+                } else {
+                    showMessage(data.error || 'Error adding product to cart', 'danger');
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                showMessage('Error adding product to cart', 'danger');
+                submitBtn.innerHTML = originalText;
+                submitBtn.disabled = false;
+            });
+        });
+    }
+    
+    function showMessage(message, type) {
+        // Create or update message div
+        let messageDiv = document.getElementById('product-message');
+        if (!messageDiv) {
+            messageDiv = document.createElement('div');
+            messageDiv.id = 'product-message';
+            messageDiv.className = 'alert alert-dismissible fade show';
+            messageDiv.style.position = 'fixed';
+            messageDiv.style.top = '20px';
+            messageDiv.style.right = '20px';
+            messageDiv.style.zIndex = '9999';
+            messageDiv.style.minWidth = '300px';
+            document.body.appendChild(messageDiv);
+        }
+        
+        messageDiv.className = `alert alert-${type} alert-dismissible fade show`;
+        messageDiv.innerHTML = `
+            ${message}
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        `;
+        
+        // Auto-hide after 3 seconds
+        setTimeout(() => {
+            if (messageDiv) {
+                messageDiv.remove();
+            }
+        }, 3000);
+    }
+});
+</script>
 {% endblock %}

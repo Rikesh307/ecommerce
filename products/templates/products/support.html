@@ -1,0 +1,386 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}{{ page_title }} - Riya Group{% endblock %}
+{% block meta_description %}{{ page_description }}{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-lg-10 mx-auto">
+            <div class="text-center mb-5">
+                <h1 class="display-5 fw-bold text-primary">Customer Support</h1>
+                <p class="lead text-muted">We're here to help you 24/7. Choose the support option that works best for you.</p>
+            </div>
+
+            <!-- Support Options -->
+            <div class="row g-4 mb-5">
+                <!-- Live Chat -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 support-card">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-primary bg-gradient text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                <i class="bi bi-chat-dots fs-2"></i>
+                            </div>
+                            <h4 class="card-title text-primary mb-3">Live Chat</h4>
+                            <p class="card-text text-muted mb-4">Get instant help from our support team. Available 24/7 for immediate assistance.</p>
+                            <div class="mb-3">
+                                <span class="badge bg-success mb-2">
+                                    <i class="bi bi-circle-fill me-1" style="font-size: 0.6rem;"></i>
+                                    Online Now
+                                </span>
+                                <div class="small text-muted">Average response: 2 minutes</div>
+                            </div>
+                            <button class="btn btn-primary btn-lg w-100" onclick="startLiveChat()">
+                                <i class="bi bi-chat-dots me-2"></i>Start Chat
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Phone Support -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 support-card">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-success bg-gradient text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                <i class="bi bi-telephone fs-2"></i>
+                            </div>
+                            <h4 class="card-title text-success mb-3">Phone Support</h4>
+                            <p class="card-text text-muted mb-4">Speak directly with our support experts for complex issues and detailed assistance.</p>
+                            <div class="mb-3">
+                                <div class="fw-bold text-dark">+977-1-XXXXXXX</div>
+                                <div class="small text-muted">Mon-Fri: 9 AM - 6 PM</div>
+                                <div class="small text-muted">Sat-Sun: 10 AM - 4 PM</div>
+                            </div>
+                            <a href="tel:+9771XXXXXXX" class="btn btn-success btn-lg w-100">
+                                <i class="bi bi-telephone me-2"></i>Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Email Support -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card border-0 shadow-sm h-100 support-card">
+                        <div class="card-body text-center p-4">
+                            <div class="bg-info bg-gradient text-white rounded-circle d-inline-flex align-items-center justify-content-center mb-3" style="width: 80px; height: 80px;">
+                                <i class="bi bi-envelope fs-2"></i>
+                            </div>
+                            <h4 class="card-title text-info mb-3">Email Support</h4>
+                            <p class="card-text text-muted mb-4">Send us detailed questions and we'll respond with comprehensive solutions.</p>
+                            <div class="mb-3">
+                                <div class="fw-bold text-dark">support@riyagroup.com</div>
+                                <div class="small text-muted">Response within 4 hours</div>
+                                <div class="small text-muted">During business hours</div>
+                            </div>
+                            <a href="{% url 'products:contact' %}" class="btn btn-info btn-lg w-100">
+                                <i class="bi bi-envelope me-2"></i>Send Email
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Actions -->
+            <div class="row g-4 mb-5">
+                <div class="col-12">
+                    <h3 class="text-center text-primary mb-4">Quick Actions</h3>
+                </div>
+                
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm quick-action-card">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-box-seam text-primary fs-1 mb-3"></i>
+                            <h5 class="card-title">Track Order</h5>
+                            <p class="card-text text-muted small">Check your order status and delivery updates</p>
+                            <a href="{% url 'products:track_order' %}" class="btn btn-outline-primary">
+                                <i class="bi bi-search me-2"></i>Track Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm quick-action-card">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-arrow-repeat text-primary fs-1 mb-3"></i>
+                            <h5 class="card-title">Return Item</h5>
+                            <p class="card-text text-muted small">Start a return or exchange process</p>
+                            <a href="{% url 'products:returns' %}" class="btn btn-outline-primary">
+                                <i class="bi bi-arrow-repeat me-2"></i>Return
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm quick-action-card">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-question-circle text-primary fs-1 mb-3"></i>
+                            <h5 class="card-title">FAQ</h5>
+                            <p class="card-text text-muted small">Find answers to common questions</p>
+                            <a href="{% url 'products:faq' %}" class="btn btn-outline-primary">
+                                <i class="bi bi-book me-2"></i>Browse FAQ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="card border-0 shadow-sm quick-action-card">
+                        <div class="card-body text-center p-4">
+                            <i class="bi bi-shield-check text-primary fs-1 mb-3"></i>
+                            <h5 class="card-title">Account Help</h5>
+                            <p class="card-text text-muted small">Password, profile, and account issues</p>
+                            <button class="btn btn-outline-primary" onclick="showAccountHelp()">
+                                <i class="bi bi-person me-2"></i>Get Help
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Support Categories -->
+            <div class="row g-4 mb-5">
+                <div class="col-12">
+                    <h3 class="text-center text-primary mb-4">Browse Support Topics</h3>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-header bg-primary text-white">
+                            <h5 class="mb-0">
+                                <i class="bi bi-bag me-2"></i>Shopping & Orders
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-primary me-2"></i>
+                                        How to place an order
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-primary me-2"></i>
+                                        Payment methods and billing
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-primary me-2"></i>
+                                        Order modifications and cancellations
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-primary me-2"></i>
+                                        Promotional codes and discounts
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-header bg-success text-white">
+                            <h5 class="mb-0">
+                                <i class="bi bi-truck me-2"></i>Shipping & Delivery
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2">
+                                    <a href="{% url 'products:shipping' %}" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-success me-2"></i>
+                                        Shipping options and costs
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="{% url 'products:track_order' %}" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-success me-2"></i>
+                                        Tracking your package
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-success me-2"></i>
+                                        International shipping
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-success me-2"></i>
+                                        Delivery issues and delays
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-header bg-warning text-dark">
+                            <h5 class="mb-0">
+                                <i class="bi bi-arrow-repeat me-2"></i>Returns & Refunds
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2">
+                                    <a href="{% url 'products:returns' %}" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-warning me-2"></i>
+                                        Return policy and process
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-warning me-2"></i>
+                                        Exchanges and replacements
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-warning me-2"></i>
+                                        Refund status and timeline
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-warning me-2"></i>
+                                        Damaged or defective items
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-header bg-info text-white">
+                            <h5 class="mb-0">
+                                <i class="bi bi-person me-2"></i>Account & Technical
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-unstyled mb-0">
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-info me-2"></i>
+                                        Account creation and login
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-info me-2"></i>
+                                        Password reset and security
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-info me-2"></i>
+                                        Website and app issues
+                                    </a>
+                                </li>
+                                <li class="mb-2">
+                                    <a href="#" class="text-decoration-none support-link">
+                                        <i class="bi bi-chevron-right text-info me-2"></i>
+                                        Privacy and data settings
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Emergency Support -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card border-danger bg-light">
+                        <div class="card-body text-center p-4">
+                            <h5 class="card-title text-danger">
+                                <i class="bi bi-exclamation-triangle me-2"></i>
+                                Need Immediate Help?
+                            </h5>
+                            <p class="card-text">For urgent issues like payment problems, security concerns, or order emergencies, contact us immediately.</p>
+                            <div class="d-flex gap-2 justify-content-center flex-wrap">
+                                <button class="btn btn-danger" onclick="startUrgentChat()">
+                                    <i class="bi bi-lightning me-2"></i>Emergency Chat
+                                </button>
+                                <a href="tel:+9771XXXXXXX" class="btn btn-outline-danger">
+                                    <i class="bi bi-telephone me-2"></i>Emergency Call
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.support-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.support-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.quick-action-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.quick-action-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1) !important;
+}
+
+.support-link {
+    color: #6c757d;
+    transition: color 0.3s ease;
+}
+
+.support-link:hover {
+    color: var(--bs-primary);
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(var(--bs-success-rgb), 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(var(--bs-success-rgb), 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(var(--bs-success-rgb), 0);
+    }
+}
+
+.badge.bg-success {
+    animation: pulse 2s infinite;
+}
+</style>
+
+<script>
+function startLiveChat() {
+    alert('Live chat feature will be implemented with a chat widget. For now, please use our contact form or phone support.');
+}
+
+function startUrgentChat() {
+    alert('Emergency chat will be implemented for urgent issues. Please call our emergency line for immediate assistance.');
+}
+
+function showAccountHelp() {
+    alert('Account help section will be implemented. Please contact our support team for account-related issues.');
+}
+</script>
+{% endblock %}

@@ -4,11 +4,10 @@ from .models import Product, Category, Banner, Review
 
 @admin.register(Product)
 class ProductAdmin(admin.ModelAdmin):
-    list_display = ('name', 'price', 'category', 'stock')
-    list_filter = ('category',)
-    search_fields = ('name', 'description')
     list_display = ('name', 'price', 'category', 'stock', 'is_featured')
-    ist_editable = ('is_featured',) 
+    list_filter = ('category', 'is_featured')
+    search_fields = ('name', 'description')
+    list_editable = ('is_featured',) 
 
 @admin.register(Category)
 class CategoryAdmin(admin.ModelAdmin):

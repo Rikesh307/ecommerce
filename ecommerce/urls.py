@@ -1,43 +1,64 @@
 """
 URL configuration for ecommerce project.
-
-The `urlpatterns` list routes URLs to views. For more information please see:
-    https://docs.djangoproject.com/en/5.1/topics/http/urls/
-Examples:
-Function views
-    1. Add an import:  from my_app import views
-    2. Add a URL to urlpatterns:  path('', views.home, name='home')
-Class-based views
-    1. Add an import:  from other_app.views import Home
-    2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
-Including another URLconf
-    1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
-
-# ecommerce/urls.py (or products/urls.py if you're adding it within the products app)
-# ecommerce/urls.py
-# ecommerce/urls.py
-from django.contrib import admin
-from django.urls import path, include
-
-urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('products/', include('products.urls')),  # Correctly include the products app urls
-]
 """
-
-# ecommerce/urls.py
-# ecommerce/urls.py
 from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
+from django.views.generic import TemplateView
+from django.http import HttpResponse
+from django.contrib.sitemaps.views import sitemap
+from products.sitemaps import ProductSitemap, CategorySitemap, StaticSitemap
 from products import views
+from products.analytics import health_check, status_check
+
+# Sitemap configuration
+sitemaps = {
+    'products': ProductSitemap,
+    'categories': CategorySitemap,
+    'static': StaticSitemap,
+}
+
+def robots_txt(request):
+    """Serve robots.txt file"""
+    lines = [
+        "User-agent: *",
+        "Allow: /",
+        "",
+        "# Disallow admin and private areas",
+        "Disallow: /admin/",
+        "Disallow: /accounts/",
+        "Disallow: /cart/",
+        "Disallow: /orders/",
+        "",
+        "# Allow important pages", 
+        "Allow: /",
+        "Allow: /products/",
+        "Allow: /contact/",
+        "",
+        f"# Sitemap location",
+        f"Sitemap: {request.build_absolute_uri('/sitemap.xml')}",
+        "",
+        "# Crawl-delay to be respectful",
+        "Crawl-delay: 1"
+    ]
+    return HttpResponse("\n".join(lines), content_type="text/plain")
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.home, name='home'),
     path('products/', include('products.urls')),
+    path('accounts/', include('accounts.urls')),
+    path('cart/', include('cart.urls')),
+    path('orders/', include('orders.urls')),
+    
+    # Health checks for production monitoring
+    path('health/', health_check, name='health_check'),
+    path('status/', status_check, name='status_check'),
+
+    # SEO URLs
+    path('robots.txt', robots_txt, name='robots_txt'),
+    path('sitemap.xml', sitemap, {'sitemaps': sitemaps}, name='django.contrib.sitemaps.views.sitemap'),
 ]
 
 if settings.DEBUG:

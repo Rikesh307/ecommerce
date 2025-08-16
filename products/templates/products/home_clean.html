@@ -1,0 +1,427 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Riya Group - Premium E-Commerce Platform{% endblock %}
+
+{% block content %}
+<!-- Premium Auto-Sliding Banner -->
+<section class="banner-container mb-4" style="height: 60vh; min-height: 400px; max-height: 600px; overflow: hidden;">
+  <div id="streamingBanner" class="carousel slide h-100" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      {% for banner in banners %}
+      <button type="button" data-bs-target="#streamingBanner" data-bs-slide-to="{{ forloop.counter0 }}" 
+              class="{% if forloop.first %}active{% endif %}" 
+              style="width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.6); border: none; margin: 0 5px; transition: all 0.3s ease;">
+      </button>
+      {% endfor %}
+    </div>
+    
+    <!-- Slides -->
+    <div class="carousel-inner h-100">
+      {% for banner in banners %}
+      {% if banner.image %}
+      <div class="carousel-item h-100 {% if forloop.first %}active{% endif %}" data-bs-interval="5000">
+        <div class="position-relative h-100 w-100">
+          <img src="{{ banner.image.url }}" class="d-block w-100 h-100" alt="{{ banner.title }}" 
+               style="object-fit: cover; object-position: center;">
+          
+          <div class="position-absolute top-0 start-0 w-100 h-100" 
+               style="background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 100%);"></div>
+          
+          <div class="banner-content position-absolute bottom-0 start-0 text-white p-4 p-md-5" 
+               style="max-width: 650px; z-index: 2; transform: translateY(-15%);">
+            <h1 class="display-5 fw-bold mb-3" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.8);">{{ banner.title }}</h1>
+            <p class="lead mb-4 d-none d-md-block" style="font-size: 1.2rem; text-shadow: 1px 1px 4px rgba(0,0,0,0.7);">{{ banner.subtitle }}</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="{% url 'products:product_detail_by_id' banner.product.id %}" class="btn btn-warning btn-lg px-4 py-3 fw-bold" style="min-width: 180px; border-radius: 0.5rem;">
+                <i class="bi bi-cart-plus me-2"></i> Shop Now
+              </a>
+              <button class="btn btn-outline-light btn-lg px-4 py-3 fw-bold" style="min-width: 180px; border-radius: 0.5rem;">
+                <i class="bi bi-info-circle me-2"></i> Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% else %}
+      <div class="carousel-item h-100 {% if forloop.first %}active{% endif %}" data-bs-interval="5000">
+        <div class="position-relative h-100 w-100" 
+             style="background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 50%, #1e293b 100%);">
+          
+          <div class="banner-content position-absolute bottom-0 start-0 text-white p-4 p-md-5" 
+               style="max-width: 600px; z-index: 2; transform: translateY(-10%);">
+            <h1 class="display-4 fw-bold mb-3" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">{{ banner.title }}</h1>
+            <p class="lead mb-4 d-none d-md-block" style="font-size: 1.25rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">{{ banner.subtitle }}</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="{% url 'products:product_detail_by_id' banner.product.id %}" class="btn btn-warning btn-lg px-4 py-2" style="min-width: 150px;">
+                <i class="bi bi-cart3 me-2"></i> Shop Now
+              </a>
+              <button class="btn btn-outline-light btn-lg px-4 py-2" style="min-width: 150px;">
+                <i class="bi bi-info-circle me-2"></i> Details
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+      {% empty %}
+      <div class="carousel-item h-100 active" data-bs-interval="4000">
+        <div class="position-relative h-100 w-100" 
+             style="background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 50%, #1e293b 100%);">
+          
+          <div class="banner-content position-absolute bottom-0 start-0 text-white p-4 p-md-5" 
+               style="max-width: 600px; z-index: 2; transform: translateY(-10%);">
+            <h1 class="display-4 fw-bold mb-3" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Welcome to Riya Group</h1>
+            <p class="lead mb-4 d-none d-md-block" style="font-size: 1.25rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">Discover amazing products at great prices</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="{% url 'products:product_list' %}" class="btn btn-warning btn-lg px-4 py-2" style="min-width: 150px;">
+                <i class="bi bi-cart3 me-2"></i> Shop Now
+              </a>
+              <a href="{% url 'products:upload_banner' %}" class="btn btn-outline-light btn-lg px-4 py-2" style="min-width: 150px;">
+                <i class="bi bi-plus-circle me-2"></i> Add Banner
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    
+    <!-- Navigation Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#streamingBanner" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true" 
+            style="background-color: rgba(0,0,0,0.5); border-radius: 50%; width: 50px; height: 50px; background-size: 1.5rem;"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#streamingBanner" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true" 
+            style="background-color: rgba(0,0,0,0.5); border-radius: 50%; width: 50px; height: 50px; background-size: 1.5rem;"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+
+<!-- Categories Section -->
+<section class="py-5 bg-white">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold display-6">Shop by Category</h2>
+            <p class="text-muted fs-5">Discover our curated collections</p>
+        </div>
+        <div class="row g-4">
+            {% for category in categories|slice:":6" %}
+            <div class="col-lg-2 col-md-4 col-6">
+                <a href="{% url 'products:category_products' category.id %}" class="text-decoration-none">
+                    <div class="category-card text-center p-3 bg-light rounded-3 h-100 transition-all" 
+                         style="border: 2px solid transparent; transition: all 0.3s ease;"
+                         onmouseover="this.style.borderColor='var(--primary)'; this.style.transform='translateY(-5px)'"
+                         onmouseout="this.style.borderColor='transparent'; this.style.transform='translateY(0)'">
+                        <div class="icon-box bg-primary bg-gradient rounded-circle p-3 mb-3 mx-auto d-flex align-items-center justify-content-center" 
+                             style="width: 60px; height: 60px;">
+                            <i class="bi bi-box-seam fs-4 text-white"></i>
+                        </div>
+                        <h6 class="mb-1 fw-bold text-dark">{{ category.name }}</h6>
+                        <small class="text-muted">{{ category.products.count }} items</small>
+                    </div>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Featured Products -->
+<section class="py-5" style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-5">
+            <div>
+                <h2 class="fw-bold display-6">Featured Products</h2>
+                <p class="text-muted fs-5 mb-0">Handpicked favorites just for you</p>
+            </div>
+            <a href="{% url 'products:product_list' %}" class="btn btn-primary btn-lg px-4 py-2">
+                <i class="bi bi-arrow-right me-2"></i>View All Products
+            </a>
+        </div>
+        <div class="row g-4">
+            {% for product in featured_products|slice:":8" %}
+            <div class="col-lg-3 col-md-4 col-sm-6">
+                <div class="card h-100 border-0 shadow-sm product-card">
+                    {% if product.is_featured %}
+                    <div class="position-absolute top-0 end-0 m-2">
+                        <span class="badge bg-warning text-dark px-2 py-1 rounded-pill">
+                            <i class="bi bi-star-fill me-1"></i>Featured
+                        </span>
+                    </div>
+                    {% endif %}
+                    
+                    {% if product.discount_percentage > 0 %}
+                    <div class="position-absolute top-0 start-0 m-2">
+                        <span class="badge bg-danger text-white px-2 py-1 rounded-pill">
+                            -{{ product.discount_percentage }}%
+                        </span>
+                    </div>
+                    {% endif %}
+                    
+                    <div class="product-image-container" style="height: 200px; overflow: hidden;">
+                        {% if product.image %}
+                        <img src="{{ product.image.url }}" 
+                             class="card-img-top h-100 w-100" 
+                             alt="{{ product.name }}"
+                             style="object-fit: cover; transition: transform 0.3s ease;"
+                             onmouseover="this.style.transform='scale(1.1)'"
+                             onmouseout="this.style.transform='scale(1)'">
+                        {% else %}
+                        <div class="card-img-top h-100 d-flex align-items-center justify-content-center bg-light">
+                            <i class="bi bi-image fs-1 text-muted"></i>
+                        </div>
+                        {% endif %}
+                    </div>
+                    
+                    <div class="card-body">
+                        <div class="mb-2">
+                            <span class="badge bg-light text-primary small">{{ product.category.name }}</span>
+                        </div>
+                        
+                        <h5 class="card-title mb-2 fw-bold" style="height: 3rem; overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+                            <a href="{% url 'products:product_detail_by_id' product.id %}" class="text-decoration-none text-dark">
+                                {{ product.name }}
+                            </a>
+                        </h5>
+                        
+                        {% if product.average_rating %}
+                        <div class="d-flex align-items-center mb-2">
+                            <div class="text-warning me-2">
+                                {% for i in "12345" %}
+                                    {% if forloop.counter <= product.average_rating %}
+                                        <i class="bi bi-star-fill"></i>
+                                    {% else %}
+                                        <i class="bi bi-star"></i>
+                                    {% endif %}
+                                {% endfor %}
+                            </div>
+                            <small class="text-muted">({{ product.reviews.count }} reviews)</small>
+                        </div>
+                        {% endif %}
+                        
+                        <div class="mb-3">
+                            {% if product.discount_percentage > 0 %}
+                            <span class="h5 fw-bold text-primary mb-0">${{ product.discounted_price }}</span>
+                            <span class="text-muted text-decoration-line-through ms-2">${{ product.price }}</span>
+                            {% else %}
+                            <span class="h5 fw-bold text-primary mb-0">${{ product.price }}</span>
+                            {% endif %}
+                        </div>
+                        
+                        <div class="d-grid gap-2">
+                            {% if product.in_stock %}
+                            <button class="btn btn-primary btn-sm add-to-cart-btn" 
+                                    data-product-id="{{ product.id }}">
+                                <i class="bi bi-cart-plus me-2"></i>Add to Cart
+                            </button>
+                            {% else %}
+                            <button class="btn btn-secondary btn-sm" disabled>
+                                <i class="bi bi-x-circle me-2"></i>Out of Stock
+                            </button>
+                            {% endif %}
+                            
+                            <div class="d-flex gap-2">
+                                <button class="btn btn-outline-primary btn-sm flex-fill wishlist-btn" 
+                                        data-product-id="{{ product.id }}">
+                                    <i class="bi bi-heart"></i>
+                                </button>
+                                <a href="{% url 'products:product_detail_by_id' product.id %}" 
+                                   class="btn btn-outline-secondary btn-sm flex-fill">
+                                    <i class="bi bi-eye"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% empty %}
+            <div class="col-12 text-center py-5">
+                <i class="bi bi-box-seam fs-1 text-muted mb-3 d-block"></i>
+                <h4 class="text-muted">No featured products available</h4>
+                <p class="text-muted">Check back soon for exciting new products!</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<!-- Promo Banner -->
+<section class="py-5">
+    <div class="container">
+        <div class="row g-0 bg-primary rounded-3 overflow-hidden">
+            <div class="col-md-6 p-5 text-white">
+                <h2 class="fw-bold mb-3">Limited Time Offer</h2>
+                <p class="mb-4">Get 30% off on all new arrivals. Use code: NEW30 at checkout.</p>
+                <a href="{% url 'products:product_list' %}" class="btn btn-light">Shop Now</a>
+            </div>
+            <div class="col-md-6 d-none d-md-block">
+                <img src="https://via.placeholder.com/600x300" alt="Promo Banner" class="img-fluid h-100" style="object-fit: cover;">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section class="py-5 bg-white">
+    <div class="container">
+        <div class="text-center mb-5">
+            <h2 class="fw-bold">What Our Customers Say</h2>
+            <p class="text-muted">Trusted by thousands of happy customers</p>
+        </div>
+        <div class="row g-4">
+            {% for review in testimonials|slice:":3" %}
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm">
+                    <div class="card-body p-4">
+                        <div class="text-warning mb-3">
+                            {% for _ in "12345" %}
+                            <i class="bi bi-star-fill"></i>
+                            {% endfor %}
+                        </div>
+                        <p class="card-text mb-4">"{{ review.comment }}"</p>
+                        <div class="d-flex align-items-center">
+                            <img src="{% static 'images/default-avatar.jpg' %}" class="rounded-circle me-3" width="50" height="50" alt="{{ review.user.username }}">
+                            <div>
+                                <h6 class="mb-0">{{ review.user.username }}</h6>
+                                <small class="text-muted">{{ review.created_at|date:"F Y" }}</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</section>
+
+<style>
+  .banner-container {
+    position: relative;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+    margin-top: -1px;
+    border-radius: 0;
+  }
+  
+  .carousel-indicators button {
+    transition: all 0.3s ease;
+  }
+  
+  .carousel-indicators button.active {
+    background: white !important;
+    transform: scale(1.2);
+  }
+  
+  .carousel-control-prev, .carousel-control-next {
+    width: 8%;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: 3;
+  }
+  
+  .banner-container:hover .carousel-control-prev,
+  .banner-container:hover .carousel-control-next {
+    opacity: 1;
+  }
+  
+  .carousel-item {
+    transition: transform 0.6s ease-in-out, opacity 0.3s ease-out;
+  }
+  
+  .category-card:hover {
+    transform: translateY(-5px);
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+    transition: all 0.3s ease;
+  }
+  
+  @media (max-width: 768px) {
+    .banner-container {
+      height: 50vh !important;
+      min-height: 400px;
+    }
+    
+    .banner-content {
+      max-width: 100% !important;
+      padding: 2rem !important;
+      transform: none !important;
+    }
+    
+    .banner-content h1 {
+      font-size: 2rem !important;
+    }
+    
+    .banner-content p {
+      display: none !important;
+    }
+  }
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const streamingCarousel = new bootstrap.Carousel('#streamingBanner', {
+    interval: 4000,
+    wrap: true,
+    pause: "hover",
+    touch: true
+  });
+  
+  const bannerElement = document.getElementById('streamingBanner');
+  let touchStartX = 0;
+  let touchEndX = 0;
+  
+  bannerElement.addEventListener('touchstart', e => {
+    touchStartX = e.changedTouches[0].screenX;
+  }, { passive: true });
+  
+  bannerElement.addEventListener('touchend', e => {
+    touchEndX = e.changedTouches[0].screenX;
+    handleSwipe();
+  }, { passive: true });
+  
+  function handleSwipe() {
+    if (touchEndX < touchStartX - 30) {
+      streamingCarousel.next();
+    }
+    if (touchEndX > touchStartX + 30) {
+      streamingCarousel.prev();
+    }
+  }
+  
+  window.addEventListener('scroll', function() {
+    const scrollPosition = window.pageYOffset;
+    const banner = document.querySelector('.banner-container');
+    if (banner) {
+      banner.style.transform = `translateY(${scrollPosition * 0.3}px)`;
+    }
+  });
+  
+  document.querySelectorAll('.product-card, .category-card').forEach(card => {
+    card.style.transition = 'all 0.3s ease';
+    
+    card.addEventListener('mouseenter', () => {
+      card.style.transform = 'translateY(-5px)';
+    });
+    
+    card.addEventListener('mouseleave', () => {
+      card.style.transform = '';
+    });
+  });
+  
+  setInterval(() => {
+    if (!document.querySelector('#streamingBanner:hover')) {
+      streamingCarousel.next();
+    }
+  }, 4000);
+});
+</script>
+{% endblock %}

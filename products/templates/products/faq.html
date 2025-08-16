@@ -1,0 +1,96 @@
+{% extends 'base_old.html' %}
+{% load static %}
+
+{% block title %}Riya Group - Premium E-Commerce Platform{% endblock %}
+
+{% block content %}
+<!-- Premium Auto-Sliding Banner -->
+<section class="banner-container mb-4" style="height: 60vh; min-height: 400px; max-height: 600px; overflow: hidden;">
+  <div id="streamingBanner" class="carousel slide h-100" data-bs-ride="carousel">
+    <!-- Indicators -->
+    <div class="carousel-indicators">
+      {% for banner in banners %}
+      <button type="button" data-bs-target="#streamingBanner" data-bs-slide-to="{{ forloop.counter0 }}" 
+              class="{% if forloop.first %}active{% endif %}" 
+              style="width: 12px; height: 12px; border-radius: 50%; background: rgba(255,255,255,0.6); border: none; margin: 0 5px; transition: all 0.3s ease;">
+      </button>
+      {% endfor %}
+    </div>
+    <!-- Slides -->
+    <div class="carousel-inner h-100">
+      {% if banners %}
+        {% for banner in banners %}
+        {% if banner.image %}
+        <div class="carousel-item h-100 {% if forloop.first %}active{% endif %}" data-bs-interval="5000">
+          <div class="position-relative h-100 w-100">
+            <img src="{{ banner.image.url }}" class="d-block w-100 h-100" alt="{{ banner.title }}" 
+                 style="object-fit: cover; object-position: center;">
+            <div class="position-absolute top-0 start-0 w-100 h-100" 
+                 style="background: linear-gradient(to right, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0) 100%);"></div>
+            <div class="banner-content position-absolute bottom-0 start-0 text-white p-4 p-md-5" 
+                 style="max-width: 650px; z-index: 2; transform: translateY(-15%);">
+              <h1 class="display-5 fw-bold mb-3" style="text-shadow: 2px 2px 8px rgba(0,0,0,0.8);">{{ banner.title }}</h1>
+              <p class="lead mb-4 d-none d-md-block" style="font-size: 1.2rem; text-shadow: 1px 1px 4px rgba(0,0,0,0.7);">{{ banner.subtitle }}</p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="{% url 'products:product_detail_by_id' banner.product.id %}" class="btn btn-warning btn-lg px-4 py-3 fw-bold" style="min-width: 180px; border-radius: 0.5rem;">
+                  <i class="bi bi-cart-plus me-2"></i> Shop Now
+                </a>
+                <button class="btn btn-outline-light btn-lg px-4 py-3 fw-bold" style="min-width: 180px; border-radius: 0.5rem;">
+                  <i class="bi bi-info-circle me-2"></i> Learn More
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% else %}
+        <div class="carousel-item h-100 {% if forloop.first %}active{% endif %}" data-bs-interval="5000">
+          <div class="position-relative h-100 w-100" 
+               style="background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 50%, #1e293b 100%);">
+            <div class="banner-content position-absolute bottom-0 start-0 text-white p-4 p-md-5" 
+                 style="max-width: 600px; z-index: 2; transform: translateY(-10%);">
+              <h1 class="display-4 fw-bold mb-3" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">{{ banner.title }}</h1>
+              <p class="lead mb-4 d-none d-md-block" style="font-size: 1.25rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">{{ banner.subtitle }}</p>
+              <div class="d-flex flex-wrap gap-3">
+                <a href="{% url 'products:product_detail_by_id' banner.product.id %}" class="btn btn-warning btn-lg px-4 py-2" style="min-width: 150px;">
+                  <i class="bi bi-cart3 me-2"></i> Shop Now
+                </a>
+                <button class="btn btn-outline-light btn-lg px-4 py-2" style="min-width: 150px;">
+                  <i class="bi bi-info-circle me-2"></i> Details
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        {% endif %}
+        {% endfor %}
+      {% else %}
+      <div class="carousel-item h-100 active" data-bs-interval="4000">
+        <div class="position-relative h-100 w-100" 
+             style="background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 50%, #1e293b 100%);">
+          <div class="banner-content position-absolute bottom-0 start-0 text-white p-4 p-md-5" 
+               style="max-width: 600px; z-index: 2; transform: translateY(-10%);">
+            <h1 class="display-4 fw-bold mb-3" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.5);">Welcome to Riya Group</h1>
+            <p class="lead mb-4 d-none d-md-block" style="font-size: 1.25rem; text-shadow: 1px 1px 2px rgba(0,0,0,0.5);">Discover amazing products at great prices</p>
+            <div class="d-flex flex-wrap gap-3">
+              <a href="{% url 'products:product_list' %}" class="btn btn-warning btn-lg px-4 py-2" style="min-width: 150px;">
+                <i class="bi bi-cart3 me-2"></i> Shop Now
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+    </div>
+    <!-- Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#streamingBanner" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#streamingBanner" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</section>
+<!-- Modern Homepage Content (cards, trending, etc.) would go here -->
+{% endblock %}
