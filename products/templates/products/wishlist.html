@@ -1,0 +1,26 @@
+{% extends 'base_clean.html' %}
+{% block title %}My Wishlist - Riya Group{% endblock %}
+{% block content %}
+<div class="container py-5">
+    <h2 class="fw-bold mb-4">My Wishlist</h2>
+    {% if wishlist_items %}
+        <div class="row g-4">
+            {% for item in wishlist_items %}
+            <div class="col-md-3">
+                <div class="card h-100 border-0 shadow-sm">
+                    <img src="{{ item.product.image.url }}" class="card-img-top" alt="{{ item.product.name }}" style="height: 200px; object-fit: cover;">
+                    <div class="card-body">
+                        <h5 class="card-title">{{ item.product.name }}</h5>
+                        <p class="card-text">{{ item.product.short_description }}</p>
+                        <a href="{% url 'products:product_detail' item.product.id %}" class="btn btn-outline-primary btn-sm">View</a>
+                        <a href="{% url 'products:remove_from_wishlist' item.product.id %}" class="btn btn-outline-danger btn-sm ms-2">Remove</a>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    {% else %}
+        <div class="alert alert-info">Your wishlist is empty.</div>
+    {% endif %}
+</div>
+{% endblock %}

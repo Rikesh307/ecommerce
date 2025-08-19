@@ -9320,3 +9320,1812 @@ WARNING 2025-08-16 12:06:38,071 log 7 139926594115264 Not Found: /sw.js
 WARNING 2025-08-16 12:06:38,073 basehttp 7 139926594115264 "GET /sw.js HTTP/1.1" 404 3834
 INFO 2025-08-16 12:06:45,411 basehttp 7 139926611949248 "GET /health/ HTTP/1.1" 200 2
 INFO 2025-08-16 12:07:06,476 autoreload 7 140041743256448 Watching for file changes with StatReloader
+INFO 2025-08-16 12:07:09,368 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:07:14,732 basehttp 7 140041653315264 "GET /products/?featured=true HTTP/1.1" 200 91734
+WARNING 2025-08-16 12:07:14,759 basehttp 7 140041653315264 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:07:14,794 basehttp 7 140041435215552 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:07:14,799 basehttp 7 140041662756544 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:07:14,809 basehttp 7 140041426822848 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:07:14,809 basehttp 7 140041418430144 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:07:14,815 basehttp 7 140041653315264 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:07:14,819 basehttp 7 140041410037440 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:07:14,836 basehttp 7 140041418430144 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:07:14,837 basehttp 7 140041435215552 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:07:14,858 basehttp 7 140041662756544 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:07:14,877 log 7 140041653315264 Not Found: /media/product_images/133941915096699689.jpg
+WARNING 2025-08-16 12:07:14,880 basehttp 7 140041653315264 "GET /media/product_images/133941915096699689.jpg HTTP/1.1" 404 4158
+WARNING 2025-08-16 12:07:14,916 log 7 140041653315264 Not Found: /sw.js
+WARNING 2025-08-16 12:07:14,918 basehttp 7 140041653315264 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 12:07:25,652 basehttp 7 140041653315264 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 12:07:25,684 basehttp 7 140041653315264 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:07:25,717 basehttp 7 140041662756544 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:07:25,718 basehttp 7 140041435215552 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:07:25,720 basehttp 7 140041418430144 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:07:25,725 basehttp 7 140041653315264 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:07:25,733 basehttp 7 140041410037440 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:07:25,733 basehttp 7 140041426822848 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:07:25,752 basehttp 7 140041418430144 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:07:25,770 basehttp 7 140041653315264 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:07:25,778 basehttp 7 140041410037440 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:07:25,779 basehttp 7 140041435215552 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:07:25,796 log 7 140041426822848 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:07:25,797 basehttp 7 140041426822848 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:07:25,830 log 7 140041426822848 Not Found: /sw.js
+WARNING 2025-08-16 12:07:25,831 basehttp 7 140041426822848 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 12:07:39,451 basehttp 7 140041435215552 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:08:09,521 basehttp 7 140041435215552 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:08:23,095 basehttp 7 140041426822848 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 12:08:23,134 basehttp 7 140041426822848 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:08:23,142 basehttp 7 140041435215552 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:08:23,169 basehttp 7 140041435215552 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:08:23,170 basehttp 7 140041426822848 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:08:23,177 basehttp 7 140041653315264 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:08:23,182 basehttp 7 140041410037440 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:08:23,183 basehttp 7 140041418430144 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:08:23,186 basehttp 7 140041662756544 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:08:23,202 basehttp 7 140041426822848 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:08:23,208 basehttp 7 140041435215552 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:08:23,224 basehttp 7 140041410037440 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:08:23,237 log 7 140041401644736 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:08:23,238 basehttp 7 140041401644736 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:08:23,263 log 7 140041401644736 Not Found: /sw.js
+WARNING 2025-08-16 12:08:23,265 basehttp 7 140041401644736 "GET /sw.js HTTP/1.1" 404 3834
+WARNING 2025-08-16 12:08:30,270 log 7 140041401644736 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-08-16 12:08:30,271 basehttp 7 140041401644736 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3963
+INFO 2025-08-16 12:08:39,569 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:09:09,629 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:09:39,688 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:10:09,746 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:10:39,801 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:11:09,843 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:11:39,901 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:12:09,962 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:12:40,036 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:12:48,105 basehttp 7 140041401644736 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 12:12:48,144 basehttp 7 140041401644736 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:12:48,151 basehttp 7 140041410037440 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:12:48,161 basehttp 7 140041435215552 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:12:48,173 basehttp 7 140041410037440 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:12:48,173 basehttp 7 140041426822848 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:12:48,174 basehttp 7 140041662756544 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:12:48,183 basehttp 7 140041435215552 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:12:48,204 basehttp 7 140041426822848 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:12:48,231 basehttp 7 140041662756544 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:12:48,233 basehttp 7 140041401644736 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:12:48,234 basehttp 7 140041435215552 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:12:48,258 log 7 140041410037440 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:12:48,259 basehttp 7 140041410037440 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:12:48,344 log 7 140041410037440 Not Found: /sw.js
+WARNING 2025-08-16 12:12:48,345 basehttp 7 140041410037440 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 12:13:10,094 basehttp 7 140041435215552 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:13:40,144 basehttp 7 140041435215552 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:14:10,194 basehttp 7 140041435215552 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:14:40,258 basehttp 7 140041435215552 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:15:10,302 basehttp 7 140041435215552 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:15:40,358 basehttp 7 140041435215552 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:15:51,010 basehttp 7 140041410037440 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 12:15:51,053 basehttp 7 140041410037440 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:15:51,071 basehttp 7 140041435215552 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:15:51,072 basehttp 7 140041401644736 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:15:51,079 basehttp 7 140041662756544 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:15:51,101 basehttp 7 140041401644736 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:15:51,111 basehttp 7 140041410037440 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:15:51,124 basehttp 7 140041401644736 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:15:51,129 basehttp 7 140041662756544 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:15:51,134 basehttp 7 140041426822848 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:15:51,134 basehttp 7 140041435215552 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:15:51,152 basehttp 7 140041410037440 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:15:51,168 log 7 140041653315264 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:15:51,170 basehttp 7 140041653315264 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:15:51,221 log 7 140041653315264 Not Found: /sw.js
+WARNING 2025-08-16 12:15:51,222 basehttp 7 140041653315264 "GET /sw.js HTTP/1.1" 404 3834
+WARNING 2025-08-16 12:15:55,555 log 7 140041653315264 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-08-16 12:15:55,556 basehttp 7 140041653315264 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3963
+INFO 2025-08-16 12:16:10,412 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:16:40,469 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:17:10,516 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:17:40,569 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:18:10,617 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:18:40,677 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:19:10,762 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:19:29,695 basehttp 7 140041653315264 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 12:19:29,724 basehttp 7 140041653315264 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:19:29,742 basehttp 7 140041410037440 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:19:29,752 basehttp 7 140041435215552 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:19:29,759 basehttp 7 140041653315264 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:19:29,771 basehttp 7 140041418430144 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:19:29,778 basehttp 7 140041426822848 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:19:29,791 basehttp 7 140041662756544 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:19:29,812 basehttp 7 140041410037440 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:19:29,816 basehttp 7 140041653315264 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:19:29,823 basehttp 7 140041435215552 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:19:29,824 basehttp 7 140041662756544 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:19:29,848 log 7 140041418430144 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:19:29,850 basehttp 7 140041418430144 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:19:29,939 log 7 140041418430144 Not Found: /sw.js
+WARNING 2025-08-16 12:19:29,940 basehttp 7 140041418430144 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 12:19:34,307 basehttp 7 140041418430144 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 12:19:34,345 basehttp 7 140041418430144 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:19:34,357 basehttp 7 140041662756544 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:19:34,362 basehttp 7 140041418430144 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:19:34,370 basehttp 7 140041435215552 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:19:34,387 basehttp 7 140041410037440 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:19:34,388 basehttp 7 140041662756544 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:19:34,412 basehttp 7 140041435215552 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:19:34,416 basehttp 7 140041426822848 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:19:34,417 basehttp 7 140041418430144 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:19:34,419 basehttp 7 140041653315264 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:19:34,433 basehttp 7 140041662756544 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:19:34,448 log 7 140041410037440 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:19:34,449 basehttp 7 140041410037440 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:19:34,478 log 7 140041410037440 Not Found: /sw.js
+WARNING 2025-08-16 12:19:34,479 basehttp 7 140041410037440 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 12:19:40,829 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:20:10,875 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+WARNING 2025-08-16 12:20:31,783 log 7 140041410037440 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-08-16 12:20:31,785 basehttp 7 140041410037440 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3963
+INFO 2025-08-16 12:20:40,940 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:21:11,006 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:21:41,072 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:22:11,135 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:22:41,200 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:23:11,257 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:23:41,321 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:24:11,375 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:24:12,311 basehttp 7 140041410037440 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 12:24:12,350 basehttp 7 140041410037440 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:24:12,361 basehttp 7 140041662756544 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:24:12,395 basehttp 7 140041662756544 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:24:12,403 basehttp 7 140041410037440 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:24:12,404 basehttp 7 140041653315264 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:24:12,413 basehttp 7 140041418430144 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:24:12,428 basehttp 7 140041426822848 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:24:12,448 basehttp 7 140041662756544 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:24:12,454 basehttp 7 140041410037440 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:24:12,473 basehttp 7 140041418430144 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:24:12,473 basehttp 7 140041426822848 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:24:12,493 log 7 140041653315264 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:24:12,495 basehttp 7 140041653315264 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:24:12,613 log 7 140041653315264 Not Found: /sw.js
+WARNING 2025-08-16 12:24:12,614 basehttp 7 140041653315264 "GET /sw.js HTTP/1.1" 404 3834
+WARNING 2025-08-16 12:24:29,260 basehttp 7 140041426822848 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:24:29,267 basehttp 7 140041418430144 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:24:29,268 basehttp 7 140041653315264 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:24:29,284 basehttp 7 140041410037440 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:24:29,287 basehttp 7 140041426822848 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:24:29,309 basehttp 7 140041418430144 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:24:29,325 basehttp 7 140041653315264 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:24:29,337 basehttp 7 140041662756544 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:24:29,339 basehttp 7 140041426822848 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:24:29,339 basehttp 7 140041410037440 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:24:29,340 basehttp 7 140041418430144 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:24:29,353 log 7 140041435215552 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:24:29,354 basehttp 7 140041435215552 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:24:29,386 log 7 140041435215552 Not Found: /sw.js
+WARNING 2025-08-16 12:24:29,387 basehttp 7 140041435215552 "GET /sw.js HTTP/1.1" 404 3834
+WARNING 2025-08-16 12:24:30,158 basehttp 7 140041435215552 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:24:30,177 basehttp 7 140041418430144 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:24:30,178 basehttp 7 140041426822848 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:24:30,178 basehttp 7 140041410037440 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:24:30,179 basehttp 7 140041435215552 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:24:30,200 basehttp 7 140041662756544 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:24:30,201 basehttp 7 140041653315264 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:24:30,205 basehttp 7 140041418430144 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:24:30,226 basehttp 7 140041426822848 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:24:30,232 basehttp 7 140041410037440 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:24:30,235 basehttp 7 140041662756544 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:24:30,249 log 7 140041435215552 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:24:30,250 basehttp 7 140041435215552 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:24:30,278 log 7 140041435215552 Not Found: /sw.js
+WARNING 2025-08-16 12:24:30,279 basehttp 7 140041435215552 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 12:24:41,440 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:25:11,513 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+ERROR 2025-08-16 12:25:30,080 log 7 140041435215552 Internal Server Error: /products/category/sports/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/products/views.py", line 341, in category_detail
+    return render(request, 'products/category_detail.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: products/category_detail.html
+ERROR 2025-08-16 12:25:30,086 basehttp 7 140041435215552 "GET /products/category/sports/ HTTP/1.1" 500 82443
+INFO 2025-08-16 12:25:36,369 basehttp 7 140041435215552 "GET /products/product/11/ HTTP/1.1" 302 0
+INFO 2025-08-16 12:25:36,408 basehttp 7 140041435215552 "GET /products/ HTTP/1.1" 200 91706
+WARNING 2025-08-16 12:25:36,450 basehttp 7 140041435215552 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:25:36,456 basehttp 7 140041662756544 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:25:36,472 basehttp 7 140041410037440 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:25:36,477 basehttp 7 140041435215552 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:25:36,488 basehttp 7 140041426822848 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:25:36,493 basehttp 7 140041410037440 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:25:36,514 basehttp 7 140041435215552 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:25:36,521 basehttp 7 140041662756544 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:25:36,529 basehttp 7 140041653315264 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:25:36,529 basehttp 7 140041418430144 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:25:36,545 log 7 140041410037440 Not Found: /media/product_images/133941915096699689.jpg
+WARNING 2025-08-16 12:25:36,547 basehttp 7 140041410037440 "GET /media/product_images/133941915096699689.jpg HTTP/1.1" 404 4158
+WARNING 2025-08-16 12:25:36,577 log 7 140041410037440 Not Found: /sw.js
+WARNING 2025-08-16 12:25:36,579 basehttp 7 140041410037440 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 12:25:40,822 basehttp 7 140041410037440 "GET /products/product/4/ HTTP/1.1" 302 0
+INFO 2025-08-16 12:25:40,859 basehttp 7 140041410037440 "GET /products/ HTTP/1.1" 200 91706
+WARNING 2025-08-16 12:25:40,901 basehttp 7 140041410037440 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:25:40,921 basehttp 7 140041418430144 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:25:40,924 basehttp 7 140041653315264 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:25:40,929 basehttp 7 140041662756544 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:25:40,932 basehttp 7 140041410037440 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:25:40,957 basehttp 7 140041418430144 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:25:40,964 basehttp 7 140041435215552 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:25:40,973 basehttp 7 140041653315264 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:25:40,979 basehttp 7 140041426822848 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:25:40,983 basehttp 7 140041662756544 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:25:40,998 log 7 140041410037440 Not Found: /media/product_images/133941915096699689.jpg
+WARNING 2025-08-16 12:25:41,000 basehttp 7 140041410037440 "GET /media/product_images/133941915096699689.jpg HTTP/1.1" 404 4158
+WARNING 2025-08-16 12:25:41,031 log 7 140041410037440 Not Found: /sw.js
+WARNING 2025-08-16 12:25:41,033 basehttp 7 140041410037440 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 12:25:41,585 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:26:11,626 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:26:41,701 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:27:11,767 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:27:41,863 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:28:11,907 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:28:42,002 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:29:12,060 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:29:42,126 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:30:12,187 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:30:42,290 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:31:12,385 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:31:42,497 basehttp 7 140041662756544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:32:12,611 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:32:42,727 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:33:12,809 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:33:42,922 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:34:13,051 basehttp 7 140041410037440 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:34:52,656 autoreload 7 140211726912384 Watching for file changes with StatReloader
+INFO 2025-08-16 12:35:03,391 basehttp 7 140211646363328 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 12:35:03,464 basehttp 7 140211646363328 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:35:03,465 basehttp 7 140211637970624 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:35:03,497 basehttp 7 140211421968064 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:35:03,507 basehttp 7 140211405182656 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:35:03,509 basehttp 7 140211413575360 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:35:03,517 basehttp 7 140211646363328 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:35:03,520 basehttp 7 140211637970624 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:35:03,537 basehttp 7 140211388397248 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:35:03,544 basehttp 7 140211396789952 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:35:03,559 basehttp 7 140211405182656 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:35:03,578 basehttp 7 140211646363328 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:35:03,595 log 7 140211413575360 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:35:03,597 basehttp 7 140211413575360 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:35:03,639 log 7 140211413575360 Not Found: /sw.js
+WARNING 2025-08-16 12:35:03,640 basehttp 7 140211413575360 "GET /sw.js HTTP/1.1" 404 3834
+WARNING 2025-08-16 12:35:14,722 log 7 140211413575360 Not Found: /.well-known/appspecific/com.chrome.devtools.json
+WARNING 2025-08-16 12:35:14,724 basehttp 7 140211413575360 "GET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1" 404 3963
+INFO 2025-08-16 12:35:24,167 basehttp 7 140211646363328 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:35:54,254 basehttp 7 140211646363328 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:36:24,343 basehttp 7 140211646363328 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:36:54,465 basehttp 7 140211413575360 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:37:24,577 basehttp 7 140211413575360 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:37:54,664 basehttp 7 140211413575360 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:38:24,753 basehttp 7 140211413575360 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:38:54,874 basehttp 7 140211413575360 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:39:24,997 basehttp 7 140211413575360 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:39:55,092 basehttp 7 140211413575360 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:40:25,253 basehttp 7 140211413575360 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:40:55,334 basehttp 7 140211413575360 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:41:25,402 basehttp 7 140211413575360 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:41:55,459 basehttp 7 140211413575360 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:42:25,562 basehttp 7 140211413575360 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:42:55,687 basehttp 7 140211413575360 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:43:25,842 autoreload 7 139738730269568 Watching for file changes with StatReloader
+INFO 2025-08-16 12:43:27,382 basehttp 7 139738650506944 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:43:33,444 basehttp 7 139738650506944 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 12:43:33,494 basehttp 7 139738650506944 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:43:33,527 basehttp 7 139738572912320 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:43:33,550 basehttp 7 139738563471040 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:43:33,553 basehttp 7 139738650506944 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:43:33,564 basehttp 7 139738555078336 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:43:33,580 basehttp 7 139738572912320 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:43:33,625 basehttp 7 139738546685632 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:43:33,643 basehttp 7 139738555078336 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:43:33,643 basehttp 7 139738650506944 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:43:33,646 basehttp 7 139738572912320 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:43:33,659 basehttp 7 139738538292928 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:43:33,680 log 7 139738563471040 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:43:33,684 basehttp 7 139738563471040 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:43:33,769 log 7 139738563471040 Not Found: /sw.js
+WARNING 2025-08-16 12:43:33,772 basehttp 7 139738563471040 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 12:43:38,381 basehttp 7 139738563471040 "GET /accounts/login/ HTTP/1.1" 200 18173
+WARNING 2025-08-16 12:43:38,469 basehttp 7 139738563471040 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:43:38,470 basehttp 7 139738538292928 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:43:38,484 basehttp 7 139738572912320 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:43:38,489 basehttp 7 139738650506944 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:43:38,491 basehttp 7 139738555078336 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:43:38,511 basehttp 7 139738529900224 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:43:38,522 basehttp 7 139738563471040 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:43:38,523 basehttp 7 139738572912320 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:43:38,543 basehttp 7 139738650506944 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:43:38,543 basehttp 7 139738555078336 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+INFO 2025-08-16 12:43:43,221 basehttp 7 139738555078336 "GET /accounts/login/ HTTP/1.1" 200 18173
+WARNING 2025-08-16 12:43:43,328 basehttp 7 139738555078336 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:43:43,328 basehttp 7 139738650506944 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:43:43,354 basehttp 7 139738529900224 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:43:43,386 basehttp 7 139738572912320 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:43:43,394 basehttp 7 139738555078336 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:43:43,395 basehttp 7 139738545637056 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:43:43,410 basehttp 7 139738563471040 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:43:43,422 basehttp 7 139738521507520 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:43:43,430 basehttp 7 139738529900224 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:43:43,434 basehttp 7 139738572912320 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:43:49,596 basehttp 7 139738529900224 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:43:49,612 basehttp 7 139738572912320 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:43:49,613 basehttp 7 139738650506944 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:43:49,622 basehttp 7 139738563471040 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:43:49,623 basehttp 7 139738521507520 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:43:49,632 basehttp 7 139738555078336 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:43:49,654 basehttp 7 139738529900224 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:43:49,665 basehttp 7 139738650506944 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:43:49,673 basehttp 7 139738572912320 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:43:49,681 basehttp 7 139738545637056 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:43:49,694 basehttp 7 139738529900224 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:43:49,711 log 7 139738521507520 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:43:49,713 basehttp 7 139738521507520 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:43:49,748 log 7 139738521507520 Not Found: /sw.js
+WARNING 2025-08-16 12:43:49,749 basehttp 7 139738521507520 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 12:43:53,383 basehttp 7 139738521507520 "GET /accounts/login/ HTTP/1.1" 200 18173
+WARNING 2025-08-16 12:43:53,446 basehttp 7 139738521507520 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:43:53,457 basehttp 7 139738529900224 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:43:53,506 basehttp 7 139738521507520 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:43:53,507 basehttp 7 139738529900224 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:43:53,516 basehttp 7 139738650506944 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:43:53,517 basehttp 7 139738545637056 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:43:53,519 basehttp 7 139738572912320 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:43:53,533 basehttp 7 139738650506944 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:43:53,533 basehttp 7 139738563471040 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:43:53,541 basehttp 7 139738545637056 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+ERROR 2025-08-16 12:43:55,809 log 7 139738545637056 Internal Server Error: /products/category/home-garden/
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/app/products/views.py", line 341, in category_detail
+    return render(request, 'products/category_detail.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: products/category_detail.html
+ERROR 2025-08-16 12:43:55,814 basehttp 7 139738545637056 "GET /products/category/home-garden/ HTTP/1.1" 500 82587
+INFO 2025-08-16 12:43:57,449 basehttp 7 139738650506944 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:44:00,528 basehttp 7 139738545637056 "GET /accounts/login/ HTTP/1.1" 200 18173
+WARNING 2025-08-16 12:44:00,643 basehttp 7 139738545637056 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:44:00,646 basehttp 7 139738563471040 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:44:00,656 basehttp 7 139738650506944 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:44:00,657 basehttp 7 139738555078336 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:44:00,659 basehttp 7 139738572912320 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+INFO 2025-08-16 12:44:08,377 basehttp 7 139738572912320 "GET /products/product/apple-macbook-air-m2/ HTTP/1.1" 200 18147
+WARNING 2025-08-16 12:44:08,465 basehttp 7 139738572912320 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:44:08,500 basehttp 7 139738555078336 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:44:08,527 basehttp 7 139738563471040 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:44:08,529 basehttp 7 139738572912320 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:44:08,553 basehttp 7 139738537244352 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:44:08,571 basehttp 7 139738555078336 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:44:08,571 basehttp 7 139738650506944 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:44:08,572 basehttp 7 139738572912320 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:44:08,573 basehttp 7 139738563471040 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:44:08,573 basehttp 7 139738545637056 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+INFO 2025-08-16 12:44:19,662 basehttp 7 139738545637056 "GET /accounts/login/ HTTP/1.1" 200 18173
+WARNING 2025-08-16 12:44:19,754 basehttp 7 139738563471040 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:44:19,793 basehttp 7 139738563471040 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:44:19,801 basehttp 7 139738545637056 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:44:19,813 basehttp 7 139738537244352 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:44:19,814 basehttp 7 139738650506944 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:44:19,816 basehttp 7 139738555078336 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:44:19,818 basehttp 7 139738572912320 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:44:19,826 basehttp 7 139738528851648 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+INFO 2025-08-16 12:44:24,976 basehttp 7 139738528851648 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 12:44:25,031 basehttp 7 139738528851648 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:44:25,047 basehttp 7 139738572912320 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:44:25,077 basehttp 7 139738555078336 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:44:25,081 basehttp 7 139738650506944 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:44:25,082 basehttp 7 139738563471040 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:44:25,090 basehttp 7 139738528851648 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:44:25,125 basehttp 7 139738572912320 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:44:25,127 basehttp 7 139738545637056 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:44:25,147 basehttp 7 139738555078336 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:44:25,173 basehttp 7 139738563471040 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:44:25,175 basehttp 7 139738537244352 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:44:25,196 log 7 139738650506944 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:44:25,198 basehttp 7 139738650506944 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:44:25,272 log 7 139738650506944 Not Found: /sw.js
+WARNING 2025-08-16 12:44:25,274 basehttp 7 139738650506944 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 12:44:27,558 basehttp 7 139738537244352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:44:57,651 basehttp 7 139738537244352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:45:27,781 basehttp 7 139738537244352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:45:51,460 basehttp 7 139738650506944 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 12:45:51,570 basehttp 7 139738537244352 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:45:51,574 basehttp 7 139738650506944 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:45:51,580 basehttp 7 139738555078336 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:45:51,589 basehttp 7 139738563471040 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:45:51,611 basehttp 7 139738572912320 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:45:51,615 basehttp 7 139738545637056 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:45:51,636 basehttp 7 139738537244352 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:45:51,637 basehttp 7 139738555078336 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:45:51,655 basehttp 7 139738563471040 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:45:51,666 basehttp 7 139738545637056 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:45:51,678 basehttp 7 139738650506944 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:45:51,696 log 7 139738572912320 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:45:51,697 basehttp 7 139738572912320 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:45:51,811 log 7 139738572912320 Not Found: /sw.js
+WARNING 2025-08-16 12:45:51,813 basehttp 7 139738572912320 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 12:45:55,240 basehttp 7 139738572912320 "GET /cart/ HTTP/1.1" 302 0
+INFO 2025-08-16 12:45:55,282 basehttp 7 139738572912320 "GET /accounts/login/?next=/cart/ HTTP/1.1" 200 18197
+WARNING 2025-08-16 12:45:55,400 basehttp 7 139738572912320 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:45:55,401 basehttp 7 139738650506944 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:45:55,441 basehttp 7 139738650506944 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:45:55,451 basehttp 7 139738563471040 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:45:55,452 basehttp 7 139738545637056 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:45:55,461 basehttp 7 139738650506944 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:45:55,477 basehttp 7 139738555078336 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:45:55,471 basehttp 7 139738572912320 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:45:55,482 basehttp 7 139738528851648 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:45:55,482 basehttp 7 139738537244352 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+INFO 2025-08-16 12:45:57,865 basehttp 7 139738537244352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:45:59,490 basehttp 7 139738537244352 "GET /accounts/login/ HTTP/1.1" 200 18173
+WARNING 2025-08-16 12:45:59,554 basehttp 7 139738537244352 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:45:59,577 basehttp 7 139738528851648 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:45:59,620 basehttp 7 139738572912320 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:45:59,631 basehttp 7 139738537244352 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:45:59,645 basehttp 7 139738555078336 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:45:59,652 basehttp 7 139738650506944 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:45:59,663 basehttp 7 139738528851648 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:45:59,680 basehttp 7 139738572912320 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:45:59,682 basehttp 7 139738563471040 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:45:59,682 basehttp 7 139738537244352 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+INFO 2025-08-16 12:46:27,969 basehttp 7 139738537244352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:46:58,085 basehttp 7 139738537244352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:47:28,186 basehttp 7 139738537244352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:47:58,272 basehttp 7 139738537244352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:48:28,354 basehttp 7 139738537244352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:48:58,426 basehttp 7 139738537244352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:49:28,490 basehttp 7 139738537244352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:49:58,564 basehttp 7 139738537244352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:50:28,640 basehttp 7 139738537244352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:50:58,716 basehttp 7 139738537244352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:51:15,922 autoreload 7 140243462364032 Watching for file changes with StatReloader
+INFO 2025-08-16 12:51:18,069 basehttp 7 140243382564544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:51:46,191 basehttp 7 140243382564544 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 12:51:46,288 basehttp 7 140243298678464 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 12:51:46,298 basehttp 7 140243382564544 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 12:51:46,301 basehttp 7 140243281893056 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:51:46,316 basehttp 7 140243273500352 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 12:51:46,326 basehttp 7 140243290285760 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 12:51:46,326 basehttp 7 140243256714944 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 12:51:46,327 basehttp 7 140243265107648 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 12:51:46,398 basehttp 7 140243265107648 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 12:51:46,414 basehttp 7 140243256714944 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 12:51:46,415 basehttp 7 140243290285760 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 12:51:46,425 basehttp 7 140243382564544 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 12:51:46,442 log 7 140243273500352 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 12:51:46,444 basehttp 7 140243273500352 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 12:51:46,492 log 7 140243273500352 Not Found: /sw.js
+WARNING 2025-08-16 12:51:46,493 basehttp 7 140243273500352 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 12:51:48,156 basehttp 7 140243382564544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:52:18,242 basehttp 7 140243382564544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:52:48,310 basehttp 7 140243382564544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:53:18,420 basehttp 7 140243382564544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:53:48,523 basehttp 7 140243382564544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:54:18,603 basehttp 7 140243382564544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:54:48,665 basehttp 7 140243382564544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:55:18,772 basehttp 7 140243382564544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:55:48,863 basehttp 7 140243382564544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:56:18,939 basehttp 7 140243382564544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:56:49,044 basehttp 7 140243382564544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:57:19,115 basehttp 7 140243273500352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:57:49,211 basehttp 7 140243273500352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:58:19,303 basehttp 7 140243273500352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:58:49,403 basehttp 7 140243273500352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:59:19,489 basehttp 7 140243273500352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 12:59:49,605 basehttp 7 140243273500352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:00:19,691 basehttp 7 140243273500352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:00:49,772 basehttp 7 140243273500352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:01:19,835 basehttp 7 140243273500352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:01:49,930 basehttp 7 140243273500352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:02:20,024 basehttp 7 140243273500352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:02:50,107 basehttp 7 140243273500352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:03:20,199 basehttp 7 140243273500352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:03:50,276 basehttp 7 140243273500352 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:03:56,435 autoreload 6 140162973817728 Watching for file changes with StatReloader
+INFO 2025-08-16 13:03:58,434 basehttp 6 140162826761920 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:04:01,009 basehttp 6 140162826761920 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 13:04:01,086 basehttp 6 140162817320640 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 13:04:01,091 basehttp 6 140162826761920 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 13:04:01,097 basehttp 6 140162807879360 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 13:04:01,126 basehttp 6 140162791093952 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 13:04:01,151 basehttp 6 140162799486656 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 13:04:01,153 basehttp 6 140162432497344 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 13:04:01,154 basehttp 6 140162782701248 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 13:04:01,154 basehttp 6 140162817320640 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 13:04:01,157 basehttp 6 140162424104640 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 13:04:01,192 basehttp 6 140162424104640 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 13:04:01,212 basehttp 6 140162782701248 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 13:04:01,227 log 6 140162817320640 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 13:04:01,228 basehttp 6 140162817320640 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 13:04:01,264 log 6 140162817320640 Not Found: /sw.js
+WARNING 2025-08-16 13:04:01,265 basehttp 6 140162817320640 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 13:04:28,505 basehttp 6 140162782701248 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:04:58,612 basehttp 6 140162782701248 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:05:28,693 basehttp 6 140162782701248 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:05:32,725 basehttp 6 140162817320640 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 13:05:32,775 basehttp 6 140162817320640 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 13:05:32,789 basehttp 6 140162782701248 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 13:05:32,810 basehttp 6 140162424104640 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 13:05:32,834 basehttp 6 140162817320640 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 13:05:32,839 basehttp 6 140162782701248 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 13:05:32,845 basehttp 6 140162432497344 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 13:05:32,868 basehttp 6 140162826761920 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 13:05:32,868 basehttp 6 140162424104640 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 13:05:32,873 basehttp 6 140162807879360 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 13:05:32,897 basehttp 6 140162782701248 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 13:05:32,914 basehttp 6 140162424104640 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 13:05:32,931 log 6 140162817320640 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 13:05:32,933 basehttp 6 140162817320640 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 13:05:32,969 log 6 140162817320640 Not Found: /sw.js
+WARNING 2025-08-16 13:05:32,971 basehttp 6 140162817320640 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 13:05:34,100 basehttp 6 140162817320640 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 13:05:34,158 basehttp 6 140162424104640 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 13:05:34,158 basehttp 6 140162817320640 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 13:05:34,183 basehttp 6 140162782701248 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 13:05:34,194 basehttp 6 140162817320640 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 13:05:34,211 basehttp 6 140162424104640 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 13:05:34,240 basehttp 6 140162432497344 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 13:05:34,258 basehttp 6 140162782701248 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 13:05:34,275 basehttp 6 140162807879360 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 13:05:34,277 basehttp 6 140162817320640 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 13:05:34,284 basehttp 6 140162826761920 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 13:05:34,286 basehttp 6 140162432497344 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 13:05:34,303 log 6 140162799486656 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 13:05:34,305 basehttp 6 140162799486656 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 13:05:34,348 log 6 140162799486656 Not Found: /sw.js
+WARNING 2025-08-16 13:05:34,350 basehttp 6 140162799486656 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 13:05:34,653 basehttp 6 140162799486656 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 13:05:34,697 basehttp 6 140162799486656 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 13:05:34,733 basehttp 6 140162432497344 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 13:05:34,740 basehttp 6 140162799486656 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 13:05:34,754 basehttp 6 140162826761920 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 13:05:34,768 basehttp 6 140162432497344 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 13:05:34,769 basehttp 6 140162791093952 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 13:05:34,769 basehttp 6 140162817320640 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 13:05:34,770 basehttp 6 140162807879360 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 13:05:34,809 basehttp 6 140162807879360 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 13:05:34,822 basehttp 6 140162817320640 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 13:05:34,828 basehttp 6 140162791093952 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 13:05:34,841 log 6 140162432497344 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 13:05:34,843 basehttp 6 140162432497344 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 13:05:34,889 log 6 140162432497344 Not Found: /sw.js
+WARNING 2025-08-16 13:05:34,891 basehttp 6 140162432497344 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 13:05:35,203 basehttp 6 140162432497344 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 13:05:35,257 basehttp 6 140162432497344 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 13:05:35,267 basehttp 6 140162791093952 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 13:05:35,300 basehttp 6 140162791093952 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 13:05:35,329 basehttp 6 140162807879360 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 13:05:35,333 basehttp 6 140162817320640 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 13:05:35,351 basehttp 6 140162432497344 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 13:05:35,359 basehttp 6 140162799486656 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 13:05:35,362 basehttp 6 140162826761920 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 13:05:35,362 basehttp 6 140162791093952 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 13:05:35,381 basehttp 6 140162782701248 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 13:05:35,394 basehttp 6 140162432497344 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 13:05:35,408 log 6 140162817320640 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 13:05:35,409 basehttp 6 140162817320640 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 13:05:35,448 log 6 140162817320640 Not Found: /sw.js
+WARNING 2025-08-16 13:05:35,449 basehttp 6 140162817320640 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 13:05:35,622 basehttp 6 140162817320640 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 13:05:35,713 basehttp 6 140162782701248 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 13:05:35,715 basehttp 6 140162817320640 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 13:05:35,719 basehttp 6 140162432497344 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 13:05:35,720 basehttp 6 140162791093952 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 13:05:35,741 basehttp 6 140162826761920 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 13:05:35,761 basehttp 6 140162807879360 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 13:05:35,769 basehttp 6 140162799486656 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 13:05:35,772 basehttp 6 140162782701248 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 13:05:35,784 basehttp 6 140162817320640 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 13:05:35,795 basehttp 6 140162791093952 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 13:05:35,811 basehttp 6 140162807879360 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 13:05:35,830 log 6 140162826761920 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 13:05:35,833 basehttp 6 140162826761920 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 13:05:35,934 log 6 140162826761920 Not Found: /sw.js
+WARNING 2025-08-16 13:05:35,935 basehttp 6 140162826761920 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 13:05:35,956 basehttp 6 140162807879360 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-16 13:05:36,028 basehttp 6 140162807879360 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-16 13:05:36,045 basehttp 6 140162826761920 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-16 13:05:36,063 basehttp 6 140162817320640 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-16 13:05:36,064 basehttp 6 140162791093952 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-16 13:05:36,080 basehttp 6 140162782701248 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-16 13:05:36,126 basehttp 6 140162826761920 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-16 13:05:36,126 basehttp 6 140162807879360 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-16 13:05:36,147 basehttp 6 140162817320640 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-16 13:05:36,153 basehttp 6 140162782701248 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-16 13:05:36,154 basehttp 6 140162791093952 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-16 13:05:36,166 basehttp 6 140162826761920 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-16 13:05:36,185 log 6 140162799486656 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-16 13:05:36,188 basehttp 6 140162799486656 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-16 13:05:36,240 log 6 140162799486656 Not Found: /sw.js
+WARNING 2025-08-16 13:05:36,242 basehttp 6 140162799486656 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-16 13:05:58,746 basehttp 6 140162826761920 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:06:28,860 basehttp 6 140162826761920 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:06:58,980 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:07:29,091 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:07:59,195 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:08:29,298 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:08:59,399 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:09:29,467 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:09:59,564 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:10:29,634 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:10:59,719 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:12:23,044 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:12:53,148 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:13:23,264 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:13:53,353 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:14:23,459 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:14:53,556 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:15:23,671 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:15:53,814 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:16:23,932 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:16:54,039 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:17:24,139 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:17:54,215 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:18:24,288 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:18:54,382 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:19:24,465 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:19:54,534 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:20:24,621 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-16 13:20:54,724 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:26:06,989 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:26:28,632 basehttp 6 140162799486656 "GET /products/ HTTP/1.1" 200 91706
+WARNING 2025-08-17 00:26:28,882 basehttp 6 140162799486656 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-17 00:26:28,883 basehttp 6 140162791093952 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-17 00:26:28,884 basehttp 6 140162817320640 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-17 00:26:28,885 basehttp 6 140162782701248 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-17 00:26:28,886 basehttp 6 140162807879360 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-17 00:26:28,887 basehttp 6 140162826761920 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-17 00:26:28,952 basehttp 6 140162807879360 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-17 00:26:28,985 basehttp 6 140162817320640 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-17 00:26:28,987 basehttp 6 140162826761920 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-17 00:26:28,989 basehttp 6 140162782701248 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-17 00:26:29,049 log 6 140162791093952 Not Found: /media/product_images/133941915096699689.jpg
+WARNING 2025-08-17 00:26:29,056 basehttp 6 140162791093952 "GET /media/product_images/133941915096699689.jpg HTTP/1.1" 404 4158
+WARNING 2025-08-17 00:26:29,302 log 6 140162791093952 Not Found: /sw.js
+WARNING 2025-08-17 00:26:29,304 basehttp 6 140162791093952 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-17 00:26:37,838 basehttp 6 140162782701248 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:27:07,940 basehttp 6 140162782701248 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:27:38,047 basehttp 6 140162782701248 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:28:08,155 basehttp 6 140162782701248 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:28:38,273 basehttp 6 140162782701248 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:29:08,351 basehttp 6 140162782701248 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:29:38,445 basehttp 6 140162782701248 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:30:08,547 basehttp 6 140162782701248 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:30:38,621 basehttp 6 140162782701248 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:31:08,702 basehttp 6 140162782701248 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:31:38,778 basehttp 6 140162782701248 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:32:08,884 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:32:38,976 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:33:09,074 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:33:39,180 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:34:09,262 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:34:39,347 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:35:09,425 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:35:39,536 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:36:09,656 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:36:39,744 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-17 00:40:51,269 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:33:57,730 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:34:28,021 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:34:58,128 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:35:28,264 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:35:58,399 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:36:28,467 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:36:58,537 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:37:28,641 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:37:58,800 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:38:28,907 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:38:59,016 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:39:29,105 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:39:59,241 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:40:29,338 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:42:24,633 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:42:54,731 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:43:24,825 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:43:54,931 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:44:25,005 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:44:55,092 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:45:25,198 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:45:55,307 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:46:25,420 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:46:55,526 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:47:25,635 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:13:24,449 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:13:54,560 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:14:24,635 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:14:54,732 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:15:24,797 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:15:54,914 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:16:24,990 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:16:55,090 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:17:25,181 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:17:55,307 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:18:25,427 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:18:55,544 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:19:25,601 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:19:55,698 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:20:25,780 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:20:55,891 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:21:26,018 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:21:56,094 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:22:26,229 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:22:56,351 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:23:26,441 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:23:56,511 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:24:26,669 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:24:56,747 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:25:26,872 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:25:56,931 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:26:27,022 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:26:57,140 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:27:27,211 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:27:57,284 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:28:27,409 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:28:57,475 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:29:27,540 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:29:57,660 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:30:27,734 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:30:57,811 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:31:27,883 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:31:57,957 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:32:28,043 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:32:58,129 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:33:28,195 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:33:58,262 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:34:28,357 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:34:58,420 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:35:28,499 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:35:58,601 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:36:28,685 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:36:58,802 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:37:28,884 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:37:58,998 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:38:29,040 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:38:59,157 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:39:29,250 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:39:59,362 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:40:29,478 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:40:59,585 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:41:29,666 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:41:59,775 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:42:29,854 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:42:59,980 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:43:30,068 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:44:00,203 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:44:30,322 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:45:00,405 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:45:30,501 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:46:00,598 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:46:30,696 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:47:00,789 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:47:30,859 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:48:00,928 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:48:31,001 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:49:01,068 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:49:31,150 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:50:01,222 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:50:31,337 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:51:01,425 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:51:31,521 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:52:01,590 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:52:31,653 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:53:01,788 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:53:32,274 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:54:02,399 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:54:32,485 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:55:02,587 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:55:32,692 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:56:02,797 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:56:32,885 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:57:02,958 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:57:33,070 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:58:03,136 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:58:33,213 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:59:03,303 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 15:59:33,406 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:00:03,492 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:00:33,583 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:01:03,650 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:01:33,728 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:02:03,806 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:02:33,930 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:03:04,055 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:03:34,150 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:04:04,247 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:04:34,358 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:05:04,427 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:05:34,529 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:06:04,611 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:06:34,708 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:07:04,801 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:07:34,930 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:08:05,021 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:08:35,102 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:09:05,164 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:09:35,274 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:10:05,359 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:10:35,442 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:11:05,497 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:11:35,571 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:12:05,649 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:12:35,738 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:13:05,813 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:13:35,880 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:14:05,981 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:14:36,077 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:15:06,197 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:15:36,288 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:16:06,397 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:16:36,491 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:17:06,633 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:17:36,734 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:18:06,851 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:18:36,919 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:19:07,022 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:19:37,096 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:20:07,215 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:20:37,293 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:21:07,376 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:21:37,453 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:22:07,622 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:22:37,703 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:23:07,819 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:23:37,925 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:24:08,050 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:24:38,127 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:25:08,189 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:25:38,274 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:26:08,403 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:26:38,501 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:27:08,583 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:27:38,667 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:28:08,733 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:28:38,818 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:29:08,901 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:29:38,978 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:30:09,076 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:30:39,150 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:31:09,273 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:31:39,358 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:32:09,465 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:32:39,522 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:33:09,609 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:33:39,686 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:34:09,784 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:34:39,885 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:35:10,005 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:35:40,075 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:36:10,157 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:36:40,247 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:37:10,358 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:37:40,438 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:38:10,502 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:38:40,580 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:39:10,673 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:39:40,771 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:40:10,871 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:40:40,992 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:41:11,063 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:41:41,142 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:42:11,254 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:42:41,348 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:43:11,455 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:43:41,568 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:44:11,642 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:44:41,744 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:45:11,847 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:45:41,953 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:46:12,057 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:46:42,167 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:47:12,253 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:47:42,385 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:48:12,495 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:48:42,577 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:49:12,714 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:49:42,787 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:50:12,866 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:50:42,938 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:51:12,999 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:51:43,044 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:52:13,086 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:52:43,151 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:53:13,212 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:53:43,271 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:54:13,330 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:54:43,390 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:55:13,449 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:55:43,509 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:56:13,575 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:56:43,634 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:57:13,710 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:57:43,765 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:58:13,827 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:58:43,891 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:59:13,953 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 16:59:44,006 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:00:14,042 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:00:44,108 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:01:14,174 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:01:44,237 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:02:14,299 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:02:44,348 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:03:14,422 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:03:44,480 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:04:14,526 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:04:44,569 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:05:14,610 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:05:44,658 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:06:14,774 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:06:44,825 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:07:14,882 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:07:44,953 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:08:14,998 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:08:45,076 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:09:15,142 basehttp 6 140162791093952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:09:17,020 basehttp 6 140162782701248 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-19 17:09:17,163 basehttp 6 140162791093952 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:09:17,177 basehttp 6 140162826761920 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:09:17,189 basehttp 6 140162807879360 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:09:17,194 basehttp 6 140162782701248 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:09:17,194 basehttp 6 140162817320640 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:09:17,199 basehttp 6 140162799486656 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:09:17,199 basehttp 6 140162791093952 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:09:17,216 basehttp 6 140162432497344 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:09:17,227 basehttp 6 140162826761920 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:09:17,247 basehttp 6 140162791093952 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-19 17:09:17,248 basehttp 6 140162782701248 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-19 17:09:17,270 log 6 140162799486656 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-19 17:09:17,271 basehttp 6 140162799486656 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-19 17:09:17,438 log 6 140162799486656 Not Found: /sw.js
+WARNING 2025-08-19 17:09:17,439 basehttp 6 140162799486656 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-19 17:09:22,943 basehttp 6 140162799486656 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-19 17:09:22,999 basehttp 6 140162782701248 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:09:23,003 basehttp 6 140162799486656 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:09:23,010 basehttp 6 140162791093952 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:09:23,024 basehttp 6 140162432497344 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:09:23,025 basehttp 6 140162817320640 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:09:23,034 basehttp 6 140162826761920 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:09:23,040 basehttp 6 140162799486656 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:09:23,049 basehttp 6 140162782701248 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:09:23,061 basehttp 6 140162791093952 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:09:23,078 basehttp 6 140162799486656 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-19 17:09:23,079 basehttp 6 140162432497344 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-19 17:09:23,110 log 6 140162826761920 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-19 17:09:23,112 basehttp 6 140162826761920 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-19 17:09:23,154 log 6 140162826761920 Not Found: /sw.js
+WARNING 2025-08-19 17:09:23,155 basehttp 6 140162826761920 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-19 17:09:45,226 basehttp 6 140162432497344 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:10:15,312 basehttp 6 140162432497344 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:10:45,392 basehttp 6 140162432497344 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:11:15,440 basehttp 6 140162432497344 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:11:45,499 basehttp 6 140162432497344 "GET /health/ HTTP/1.1" 200 2
+WARNING 2025-08-19 17:11:53,410 basehttp 6 140162826761920 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:11:53,410 basehttp 6 140162432497344 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:11:53,410 basehttp 6 140162799486656 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:11:53,430 basehttp 6 140162791093952 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:11:53,437 basehttp 6 140162782701248 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:11:53,445 basehttp 6 140162817320640 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:11:53,447 basehttp 6 140162826761920 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:11:53,476 basehttp 6 140162782701248 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:11:53,497 basehttp 6 140162826761920 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-19 17:11:53,497 basehttp 6 140162791093952 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-19 17:11:53,498 basehttp 6 140162817320640 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:11:53,519 log 6 140162799486656 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-19 17:11:53,521 basehttp 6 140162799486656 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-19 17:11:53,560 log 6 140162799486656 Not Found: /sw.js
+WARNING 2025-08-19 17:11:53,561 basehttp 6 140162799486656 "GET /sw.js HTTP/1.1" 404 3834
+WARNING 2025-08-19 17:11:55,174 basehttp 6 140162799486656 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:11:55,187 basehttp 6 140162791093952 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:11:55,189 basehttp 6 140162817320640 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:11:55,195 basehttp 6 140162826761920 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:11:55,204 basehttp 6 140162799486656 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:11:55,218 basehttp 6 140162791093952 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:11:55,219 basehttp 6 140162817320640 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:11:55,250 basehttp 6 140162782701248 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-19 17:11:55,250 basehttp 6 140162826761920 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:11:55,251 basehttp 6 140162432497344 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-19 17:11:55,253 basehttp 6 140162799486656 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:11:55,291 log 6 140162807879360 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-19 17:11:55,293 basehttp 6 140162807879360 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-19 17:11:55,335 log 6 140162807879360 Not Found: /sw.js
+WARNING 2025-08-19 17:11:55,337 basehttp 6 140162807879360 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-19 17:12:15,583 basehttp 6 140162799486656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:12:46,274 autoreload 7 140119953099648 Watching for file changes with StatReloader
+INFO 2025-08-19 17:12:48,915 basehttp 7 140119804737216 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:12:55,149 basehttp 7 140119804737216 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-19 17:12:55,189 basehttp 7 140119804737216 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:12:55,201 basehttp 7 140119795295936 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:12:55,205 basehttp 7 140119804737216 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:12:55,228 basehttp 7 140119778510528 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:12:55,237 basehttp 7 140119786903232 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:12:55,238 basehttp 7 140119804737216 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:12:55,240 basehttp 7 140119770117824 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:12:55,240 basehttp 7 140119795295936 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:12:55,246 basehttp 7 140119761725120 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:12:55,256 basehttp 7 140119415715520 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-19 17:12:55,285 basehttp 7 140119795295936 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-19 17:12:55,301 log 7 140119770117824 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-19 17:12:55,302 basehttp 7 140119770117824 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-19 17:12:55,331 log 7 140119770117824 Not Found: /sw.js
+WARNING 2025-08-19 17:12:55,332 basehttp 7 140119770117824 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-19 17:12:56,592 basehttp 7 140119770117824 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-19 17:12:56,637 basehttp 7 140119770117824 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:12:56,644 basehttp 7 140119795295936 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:12:56,645 basehttp 7 140119415715520 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:12:56,657 basehttp 7 140119761725120 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:12:56,671 basehttp 7 140119804737216 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:12:56,676 basehttp 7 140119770117824 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:12:56,685 basehttp 7 140119415715520 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:12:56,692 basehttp 7 140119795295936 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:12:56,697 basehttp 7 140119761725120 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:12:56,699 basehttp 7 140119785854656 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-19 17:12:56,717 basehttp 7 140119804737216 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-19 17:12:56,732 log 7 140119770117824 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-19 17:12:56,733 basehttp 7 140119770117824 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-19 17:12:56,774 log 7 140119770117824 Not Found: /sw.js
+WARNING 2025-08-19 17:12:56,775 basehttp 7 140119770117824 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-19 17:13:01,978 basehttp 7 140119770117824 "GET /accounts/login/ HTTP/1.1" 200 18173
+WARNING 2025-08-19 17:13:02,018 basehttp 7 140119770117824 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:13:02,044 basehttp 7 140119804737216 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:13:02,060 basehttp 7 140119770117824 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:13:02,064 basehttp 7 140119785854656 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:13:02,087 basehttp 7 140119804737216 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:13:02,088 basehttp 7 140119761725120 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:13:02,096 basehttp 7 140119795295936 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:13:02,104 basehttp 7 140119415715520 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:13:02,110 basehttp 7 140119407322816 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:13:02,110 basehttp 7 140119785854656 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+INFO 2025-08-19 17:13:06,964 basehttp 7 140119785854656 "GET /cart/ HTTP/1.1" 302 0
+INFO 2025-08-19 17:13:06,998 basehttp 7 140119785854656 "GET /accounts/login/?next=/cart/ HTTP/1.1" 200 18197
+WARNING 2025-08-19 17:13:07,038 basehttp 7 140119785854656 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:13:07,060 basehttp 7 140119407322816 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:13:07,079 basehttp 7 140119785854656 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:13:07,088 basehttp 7 140119415715520 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:13:07,090 basehttp 7 140119795295936 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:13:07,098 basehttp 7 140119804737216 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:13:07,114 basehttp 7 140119407322816 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:13:07,120 basehttp 7 140119769069248 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:13:07,121 basehttp 7 140119785854656 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-19 17:13:07,121 basehttp 7 140119777461952 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+INFO 2025-08-19 17:13:09,286 basehttp 7 140119777461952 "GET /products/ HTTP/1.1" 200 91706
+WARNING 2025-08-19 17:13:09,324 basehttp 7 140119777461952 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:13:09,339 basehttp 7 140119769069248 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:13:09,340 basehttp 7 140119785854656 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:13:09,353 basehttp 7 140119777461952 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:13:09,355 basehttp 7 140119407322816 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:13:09,374 basehttp 7 140119769069248 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:13:09,382 basehttp 7 140119804737216 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:13:09,382 basehttp 7 140119795295936 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:13:09,393 basehttp 7 140119407322816 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:13:09,401 basehttp 7 140119777461952 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-19 17:13:09,414 log 7 140119769069248 Not Found: /media/product_images/133941915096699689.jpg
+WARNING 2025-08-19 17:13:09,416 basehttp 7 140119769069248 "GET /media/product_images/133941915096699689.jpg HTTP/1.1" 404 4158
+WARNING 2025-08-19 17:13:09,467 log 7 140119769069248 Not Found: /sw.js
+WARNING 2025-08-19 17:13:09,468 basehttp 7 140119769069248 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-19 17:13:12,546 basehttp 7 140119769069248 "GET /cart/ HTTP/1.1" 302 0
+INFO 2025-08-19 17:13:12,572 basehttp 7 140119769069248 "GET /accounts/login/?next=/cart/ HTTP/1.1" 200 18197
+WARNING 2025-08-19 17:13:12,614 basehttp 7 140119769069248 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:13:12,634 basehttp 7 140119777461952 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:13:12,645 basehttp 7 140119769069248 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:13:12,646 basehttp 7 140119795295936 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:13:12,658 basehttp 7 140119407322816 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:13:12,666 basehttp 7 140119804737216 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:13:12,679 basehttp 7 140119785854656 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:13:12,680 basehttp 7 140119795295936 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:13:12,685 basehttp 7 140119769069248 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:13:12,686 basehttp 7 140119777461952 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+INFO 2025-08-19 17:13:16,985 basehttp 7 140119777461952 "GET /products/product/apple-macbook-air-m2/ HTTP/1.1" 200 18147
+WARNING 2025-08-19 17:13:17,025 basehttp 7 140119777461952 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:13:17,033 basehttp 7 140119769069248 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:13:17,044 basehttp 7 140119769069248 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:13:17,058 basehttp 7 140119785854656 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:13:17,065 basehttp 7 140119777461952 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:13:17,072 basehttp 7 140119795295936 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:13:17,074 basehttp 7 140119769069248 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:13:17,092 basehttp 7 140119785854656 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:13:17,092 basehttp 7 140119804737216 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:13:17,092 basehttp 7 140119777461952 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+INFO 2025-08-19 17:13:18,973 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:13:49,032 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:14:19,095 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:14:49,162 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:15:19,212 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:15:49,273 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:16:19,333 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:16:49,448 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:17:19,508 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:17:49,554 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:18:19,624 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:18:49,730 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:19:19,776 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:19:49,832 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:20:19,893 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:20:49,946 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:21:20,023 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:21:50,090 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:22:20,148 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:22:50,199 basehttp 7 140119777461952 "GET /health/ HTTP/1.1" 200 2
+WARNING 2025-08-19 17:23:19,793 basehttp 7 140119785854656 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:23:19,793 basehttp 7 140119777461952 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:23:19,795 basehttp 7 140119804737216 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:23:19,821 basehttp 7 140119795295936 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:23:19,821 basehttp 7 140119769069248 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:23:19,833 basehttp 7 140119777461952 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:23:19,835 basehttp 7 140119785854656 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:23:19,837 basehttp 7 140119804737216 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:23:19,848 basehttp 7 140119760676544 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:23:19,855 basehttp 7 140119795295936 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-19 17:23:19,874 basehttp 7 140119804737216 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-19 17:23:19,890 log 7 140119769069248 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-19 17:23:19,893 basehttp 7 140119769069248 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-19 17:23:19,923 log 7 140119769069248 Not Found: /sw.js
+WARNING 2025-08-19 17:23:19,924 basehttp 7 140119769069248 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-19 17:23:20,249 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:23:24,001 basehttp 7 140119769069248 "GET /accounts/login/ HTTP/1.1" 200 18173
+WARNING 2025-08-19 17:23:24,040 basehttp 7 140119769069248 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:23:24,052 basehttp 7 140119795295936 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:23:24,069 basehttp 7 140119760676544 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:23:24,086 basehttp 7 140119777461952 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:23:24,087 basehttp 7 140119769069248 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:23:24,088 basehttp 7 140119804737216 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:23:24,094 basehttp 7 140119785854656 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:23:24,102 basehttp 7 140119795295936 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:23:24,108 basehttp 7 140119760676544 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:23:24,108 basehttp 7 140119777461952 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+INFO 2025-08-19 17:23:30,459 basehttp 7 140119777461952 "GET /cart/ HTTP/1.1" 302 0
+INFO 2025-08-19 17:23:30,483 basehttp 7 140119777461952 "GET /accounts/login/?next=/cart/ HTTP/1.1" 200 18197
+WARNING 2025-08-19 17:23:30,516 basehttp 7 140119777461952 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:23:30,526 basehttp 7 140119760676544 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:23:30,550 basehttp 7 140119760676544 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:23:30,550 basehttp 7 140119777461952 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:23:30,560 basehttp 7 140119785854656 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:23:30,571 basehttp 7 140119795295936 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:23:30,578 basehttp 7 140119804737216 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:23:30,585 basehttp 7 140119769069248 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:23:30,586 basehttp 7 140119777461952 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-19 17:23:30,587 basehttp 7 140119760676544 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:23:33,456 basehttp 7 140119760676544 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:23:33,465 basehttp 7 140119777461952 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:23:33,489 basehttp 7 140119760676544 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:23:33,490 basehttp 7 140119804737216 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:23:33,498 basehttp 7 140119769069248 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:23:33,503 basehttp 7 140119777461952 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:23:33,504 basehttp 7 140119785854656 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:23:33,504 basehttp 7 140119795295936 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:23:33,519 basehttp 7 140119785854656 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:23:33,542 basehttp 7 140119795295936 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-19 17:23:33,542 basehttp 7 140119769069248 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-19 17:23:33,555 log 7 140119777461952 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-19 17:23:33,556 basehttp 7 140119777461952 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-19 17:23:33,581 log 7 140119777461952 Not Found: /sw.js
+WARNING 2025-08-19 17:23:33,583 basehttp 7 140119777461952 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-19 17:23:40,119 basehttp 7 140119777461952 "GET /products/product/12/ HTTP/1.1" 302 0
+INFO 2025-08-19 17:23:40,153 basehttp 7 140119777461952 "GET /products/ HTTP/1.1" 200 91706
+WARNING 2025-08-19 17:23:40,186 basehttp 7 140119777461952 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:23:40,200 basehttp 7 140119769069248 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 17:23:40,209 basehttp 7 140119777461952 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 17:23:40,230 basehttp 7 140119769069248 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 17:23:40,237 basehttp 7 140119785854656 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 17:23:40,238 basehttp 7 140119795295936 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 17:23:40,246 basehttp 7 140119804737216 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 17:23:40,261 basehttp 7 140119769069248 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-19 17:23:40,262 basehttp 7 140119777461952 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 17:23:40,262 basehttp 7 140119760676544 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 17:23:40,283 log 7 140119795295936 Not Found: /media/product_images/133941915096699689.jpg
+WARNING 2025-08-19 17:23:40,285 basehttp 7 140119795295936 "GET /media/product_images/133941915096699689.jpg HTTP/1.1" 404 4158
+WARNING 2025-08-19 17:23:40,321 log 7 140119795295936 Not Found: /sw.js
+WARNING 2025-08-19 17:23:40,323 basehttp 7 140119795295936 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-19 17:23:50,300 basehttp 7 140119760676544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:24:20,353 basehttp 7 140119760676544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:24:50,427 basehttp 7 140119760676544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:25:20,481 basehttp 7 140119760676544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:25:50,549 basehttp 7 140119760676544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:26:20,609 basehttp 7 140119760676544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:26:50,701 basehttp 7 140119760676544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:27:20,786 basehttp 7 140119760676544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:27:50,909 basehttp 7 140119760676544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:28:21,047 basehttp 7 140119760676544 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:28:51,154 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:29:21,263 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:29:51,386 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:30:21,457 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:30:51,537 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:31:21,638 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:31:51,734 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:32:21,827 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:32:51,936 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:33:22,061 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:33:52,181 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:34:22,261 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:34:52,333 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:35:22,414 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:35:52,512 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:44:18,196 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:44:48,281 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:45:18,416 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:45:48,499 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:46:18,587 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:46:48,724 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:47:18,806 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:47:48,874 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:48:18,980 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:48:49,073 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:49:19,179 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:49:49,278 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:50:19,390 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:50:49,480 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:51:19,560 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:56:15,107 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:56:45,206 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:57:15,316 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:57:45,419 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:58:15,559 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:58:45,665 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:59:15,748 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 17:59:45,833 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:00:15,965 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:00:46,079 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:01:16,171 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:01:46,269 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:02:16,351 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:02:46,413 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:03:16,527 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:03:46,636 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:04:16,747 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:04:46,858 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:05:16,944 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:05:47,049 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:06:17,189 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:06:47,289 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:07:17,409 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:07:47,525 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:08:17,621 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:08:47,716 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:09:17,810 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:09:47,934 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:10:18,028 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:10:48,134 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:11:18,232 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:11:48,323 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:12:18,426 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:12:48,514 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:13:18,619 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:13:48,735 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:14:18,832 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:14:48,929 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:15:19,051 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:15:49,131 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:16:19,234 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:16:49,340 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:17:19,445 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:17:49,545 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:18:19,672 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:18:49,756 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:19:19,845 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:19:49,939 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:20:20,012 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:20:50,089 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:21:20,183 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:21:50,286 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:22:20,390 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:22:50,507 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:23:20,603 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:23:50,715 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:24:20,803 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:24:50,903 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:25:21,025 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:25:51,139 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:26:21,259 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:26:51,398 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:27:21,501 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:27:51,579 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:28:21,673 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:28:51,774 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:29:21,879 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:29:52,002 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:30:22,126 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:30:52,211 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:31:22,319 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:31:52,418 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:32:22,516 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:32:52,616 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:33:22,688 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:33:52,806 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:34:22,902 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:34:52,999 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:35:23,150 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:35:53,258 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:36:23,355 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:36:53,454 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:37:23,568 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:37:53,660 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:38:23,758 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:38:53,855 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:39:23,963 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:39:54,086 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:40:24,205 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:40:54,323 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:41:24,417 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:41:54,565 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:42:24,643 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:42:44,836 basehttp 7 140119760676544 "GET / HTTP/1.1" 200 82898
+WARNING 2025-08-19 18:42:44,956 basehttp 7 140119777461952 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 18:42:44,958 basehttp 7 140119760676544 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 18:42:44,964 basehttp 7 140119795295936 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 18:42:45,008 basehttp 7 140119777461952 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 18:42:45,014 basehttp 7 140119804737216 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 18:42:45,027 basehttp 7 140119769069248 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 18:42:45,056 basehttp 7 140119760676544 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 18:42:45,060 basehttp 7 140119785854656 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 18:42:45,077 basehttp 7 140119795295936 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 18:42:45,086 basehttp 7 140119804737216 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-19 18:42:45,111 basehttp 7 140119785854656 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-19 18:42:45,148 log 7 140119769069248 Not Found: /media/banners/133886706141016313.jpg
+WARNING 2025-08-19 18:42:45,150 basehttp 7 140119769069248 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 404 4130
+WARNING 2025-08-19 18:42:45,316 log 7 140119769069248 Not Found: /sw.js
+WARNING 2025-08-19 18:42:45,318 basehttp 7 140119769069248 "GET /sw.js HTTP/1.1" 404 3834
+INFO 2025-08-19 18:42:54,741 basehttp 7 140119785854656 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:42:55,479 basehttp 7 140119769069248 "GET /accounts/login/ HTTP/1.1" 200 18173
+WARNING 2025-08-19 18:42:55,552 basehttp 7 140119769069248 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 18:42:55,605 basehttp 7 140119804737216 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 18:42:55,615 basehttp 7 140119785854656 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 18:42:55,628 basehttp 7 140119795295936 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 18:42:55,638 basehttp 7 140119769069248 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 18:42:55,659 basehttp 7 140119760676544 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 18:42:55,676 basehttp 7 140119804737216 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 18:42:55,677 basehttp 7 140119777461952 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 18:42:55,679 basehttp 7 140119415715520 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+WARNING 2025-08-19 18:42:55,681 basehttp 7 140119785854656 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+INFO 2025-08-19 18:43:00,613 basehttp 7 140119415715520 "GET /cart/ HTTP/1.1" 302 0
+INFO 2025-08-19 18:43:00,652 basehttp 7 140119415715520 "GET /accounts/login/?next=/cart/ HTTP/1.1" 200 18197
+WARNING 2025-08-19 18:43:00,757 basehttp 7 140119415715520 "GET /static/images/category-electronics.png HTTP/1.1" 404 1907
+WARNING 2025-08-19 18:43:00,776 basehttp 7 140119785854656 "GET /static/images/category-clothing.png HTTP/1.1" 404 1898
+WARNING 2025-08-19 18:43:00,796 basehttp 7 140119777461952 "GET /static/images/category-home.png HTTP/1.1" 404 1886
+WARNING 2025-08-19 18:43:00,803 basehttp 7 140119804737216 "GET /static/images/category-sports.png HTTP/1.1" 404 1892
+WARNING 2025-08-19 18:43:00,820 basehttp 7 140119415715520 "GET /static/images/category-books.png HTTP/1.1" 404 1889
+WARNING 2025-08-19 18:43:00,828 basehttp 7 140119795295936 "GET /static/images/category-fashion.png HTTP/1.1" 404 1895
+WARNING 2025-08-19 18:43:00,829 basehttp 7 140119769069248 "GET /static/images/products/macbook-air-m2.jpg HTTP/1.1" 404 1916
+WARNING 2025-08-19 18:43:00,860 basehttp 7 140119804737216 "GET /static/images/products/adidas-ultraboost-22.jpg HTTP/1.1" 404 1934
+WARNING 2025-08-19 18:43:00,861 basehttp 7 140119777461952 "GET /static/images/products/dell-xps-13.jpg HTTP/1.1" 404 1907
+WARNING 2025-08-19 18:43:00,862 basehttp 7 140119795295936 "GET /static/images/products/nike-air-max-270.jpg HTTP/1.1" 404 1922
+INFO 2025-08-19 18:43:24,864 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:43:54,972 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 13:59:13,190 autoreload 38352 33832 Watching for file changes with StatReloader
+INFO 2025-08-19 18:44:25,089 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:44:55,183 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 14:00:00,483 autoreload 38352 33832 C:\Users\rikes\ecommerce\products\views.py changed, reloading.
+INFO 2025-08-19 14:00:03,110 autoreload 1080 41212 Watching for file changes with StatReloader
+ERROR 2025-08-19 14:00:08,849 log 1080 43556 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\products\views.py", line 91, in home
+    return render(request, 'products/home.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'categories' not found. 'categories' is not a valid view function or pattern name.
+ERROR 2025-08-19 14:00:08,860 basehttp 1080 43556 "GET / HTTP/1.1" 500 189466
+WARNING 2025-08-19 14:00:09,565 log 1080 43556 Not Found: /favicon.ico
+WARNING 2025-08-19 14:00:09,567 basehttp 1080 43556 "GET /favicon.ico HTTP/1.1" 404 3852
+INFO 2025-08-19 18:45:25,263 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:45:55,354 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 14:00:57,103 autoreload 21204 40308 Watching for file changes with StatReloader
+ERROR 2025-08-19 14:01:08,778 log 1080 43556 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\products\views.py", line 91, in home
+    return render(request, 'products/home.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'categories' not found. 'categories' is not a valid view function or pattern name.
+ERROR 2025-08-19 14:01:08,782 basehttp 1080 43556 "GET / HTTP/1.1" 500 189466
+ERROR 2025-08-19 14:01:10,828 log 1080 43556 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\products\views.py", line 91, in home
+    return render(request, 'products/home.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'categories' not found. 'categories' is not a valid view function or pattern name.
+ERROR 2025-08-19 14:01:10,837 basehttp 1080 43556 "GET / HTTP/1.1" 500 189466
+INFO 2025-08-19 18:46:25,454 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+ERROR 2025-08-19 14:01:41,124 log 1080 36984 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\products\views.py", line 91, in home
+    return render(request, 'products/home.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'categories' not found. 'categories' is not a valid view function or pattern name.
+ERROR 2025-08-19 14:01:41,133 basehttp 1080 36984 "GET / HTTP/1.1" 500 190156
+WARNING 2025-08-19 14:01:42,288 log 1080 36984 Not Found: /favicon.ico
+WARNING 2025-08-19 14:01:42,290 basehttp 1080 36984 "GET /favicon.ico HTTP/1.1" 404 3852
+INFO 2025-08-19 18:46:55,595 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:47:25,715 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:47:55,825 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:48:25,914 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:48:56,033 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:49:26,124 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:49:56,226 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:50:26,345 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:50:56,435 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:51:26,530 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:51:56,614 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:52:26,762 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:52:56,871 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 14:08:13,942 autoreload 23904 40656 Watching for file changes with StatReloader
+INFO 2025-08-19 18:53:26,964 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:53:57,084 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+ERROR 2025-08-19 14:09:25,550 log 23904 42956 Internal Server Error: /
+Traceback (most recent call last):
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\utils\decorators.py", line 188, in _view_wrapper
+    result = _process_exception(request, e)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\utils\decorators.py", line 186, in _view_wrapper
+    response = view_func(request, *args, **kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\products\views.py", line 91, in home
+    return render(request, 'products/home.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'categories' not found. 'categories' is not a valid view function or pattern name.
+ERROR 2025-08-19 14:09:25,566 basehttp 23904 42956 "GET / HTTP/1.1" 500 189790
+INFO 2025-08-19 18:54:27,256 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:54:57,360 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:55:27,461 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:55:57,575 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:56:27,739 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 14:11:28,150 basehttp 23904 32540 "GET / HTTP/1.1" 200 43180
+WARNING 2025-08-19 14:11:28,443 basehttp 23904 32540 "GET /static/css/styles.css HTTP/1.1" 404 1856
+WARNING 2025-08-19 14:11:28,466 basehttp 23904 20700 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-19 14:11:28,484 basehttp 23904 38280 "GET /static/banners/brand-logo.png HTTP/1.1" 404 1880
+WARNING 2025-08-19 14:11:28,486 basehttp 23904 43640 "GET /static/js/app.js HTTP/1.1" 404 1841
+INFO 2025-08-19 14:11:29,193 basehttp 23904 28404 "GET /static/js/riya-group-enhanced.js HTTP/1.1" 200 21651
+INFO 2025-08-19 14:11:29,361 basehttp 23904 22912 "GET /media/banners/133886706141016313.jpg HTTP/1.1" 200 1912062
+INFO 2025-08-19 14:11:29,753 basehttp 23904 22912 "GET /static/favicon.ico HTTP/1.1" 200 155
+INFO 2025-08-19 14:11:43,942 basehttp 23904 22912 "GET /accounts/login/ HTTP/1.1" 200 30627
+INFO 2025-08-19 18:56:57,877 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+ERROR 2025-08-19 14:12:07,288 log 23904 22912 Internal Server Error: /products/category/clothing/
+Traceback (most recent call last):
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\products\views.py", line 353, in category_detail
+    return render(request, 'products/category_detail.html', context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rikes\ecommerce\venv\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: products/category_detail.html
+ERROR 2025-08-19 14:12:07,295 basehttp 23904 22912 "GET /products/category/clothing/ HTTP/1.1" 500 93768
+INFO 2025-08-19 18:57:27,980 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 14:12:32,738 basehttp 23904 22912 "GET /products/featured/ HTTP/1.1" 200 48100
+WARNING 2025-08-19 14:12:32,824 basehttp 23904 22912 "GET /static/css/styles.css HTTP/1.1" 404 1856
+WARNING 2025-08-19 14:12:32,863 basehttp 23904 26720 "GET /static/js/app.js HTTP/1.1" 404 1841
+WARNING 2025-08-19 14:12:32,870 basehttp 23904 42824 "GET /static/banners/brand-logo.png HTTP/1.1" 404 1880
+INFO 2025-08-19 14:12:32,872 basehttp 23904 28404 "GET /static/images/default-product.png HTTP/1.1" 200 2630
+INFO 2025-08-19 14:12:32,969 basehttp 23904 38632 "GET /media/product_images/133941915096699689.jpg HTTP/1.1" 200 2672164
+INFO 2025-08-19 14:12:38,401 basehttp 23904 38632 "POST /cart/add/10/ HTTP/1.1" 302 0
+INFO 2025-08-19 14:12:38,466 basehttp 23904 38632 "GET /accounts/login/?next=/cart/add/10/ HTTP/1.1" 200 30627
+INFO 2025-08-19 14:12:39,835 basehttp 23904 38632 "POST /cart/add/10/ HTTP/1.1" 302 0
+INFO 2025-08-19 14:12:39,906 basehttp 23904 38632 "GET /accounts/login/?next=/cart/add/10/ HTTP/1.1" 200 30627
+INFO 2025-08-19 14:12:43,114 basehttp 23904 38632 "GET /accounts/login/ HTTP/1.1" 200 30627
+INFO 2025-08-19 14:12:52,774 basehttp 23904 38632 "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2025-08-19 14:12:52,837 basehttp 23904 38632 "GET / HTTP/1.1" 200 43180
+WARNING 2025-08-19 14:12:52,977 basehttp 23904 38632 "GET /static/css/styles.css HTTP/1.1" 404 1856
+WARNING 2025-08-19 14:12:53,012 basehttp 23904 28404 "GET /static/default-category.png HTTP/1.1" 404 1874
+WARNING 2025-08-19 14:12:53,012 basehttp 23904 43544 "GET /static/js/app.js HTTP/1.1" 404 1841
+WARNING 2025-08-19 14:12:53,014 basehttp 23904 40544 "GET /static/banners/brand-logo.png HTTP/1.1" 404 1880
+INFO 2025-08-19 14:12:57,244 basehttp 23904 23304 "GET /cart/ HTTP/1.1" 200 39900
+INFO 2025-08-19 18:57:58,104 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:58:28,214 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:58:58,339 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:59:28,470 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 18:59:58,566 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:00:28,673 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:00:58,769 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:01:28,882 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:01:58,975 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:02:29,109 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:02:59,198 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:03:29,304 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:03:59,428 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:04:29,522 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:04:59,684 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:05:29,753 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:05:59,829 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:06:29,943 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:07:00,046 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:07:30,149 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:08:00,277 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:08:30,381 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:09:00,498 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2
+INFO 2025-08-19 19:09:30,583 basehttp 7 140119795295936 "GET /health/ HTTP/1.1" 200 2

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="h-100">
+{% load static %}
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -37,6 +38,8 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Example Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
     
     <!-- Critical CSS -->
     <style>
@@ -444,6 +447,8 @@
                         Riya Group
                     </h5>
                     <p class="text-muted">Your trusted e-commerce partner offering quality products with exceptional service across Nepal and beyond.</p>
+                    <!-- Example Media File Reference -->
+                    <img src="{% static 'banners/brand-logo.png' %}" alt="Brand Logo" style="max-width:120px;" />
                     
                     <!-- Social Links -->
                     <div class="d-flex gap-2 mt-3">
@@ -467,10 +472,10 @@
                     <h6 class="mb-3">Quick Links</h6>
                     <ul class="list-unstyled">
                         <li><a href="/" class="text-muted text-decoration-none">Home</a></li>
-                        <li><a href="#" class="text-muted text-decoration-none">All Products</a></li>
-                        <li><a href="#" class="text-muted text-decoration-none">Featured</a></li>
-                        <li><a href="#" class="text-muted text-decoration-none">New Arrivals</a></li>
-                        <li><a href="#" class="text-muted text-decoration-none">Deals</a></li>
+                        <li><a href="{% url 'products:product_list' %}" class="text-muted text-decoration-none">All Products</a></li>
+                        <li><a href="{% url 'products:featured' %}" class="text-muted text-decoration-none">Featured</a></li>
+                        <li><a href="{% url 'products:new_arrivals' %}" class="text-muted text-decoration-none">New Arrivals</a></li>
+                        <li><a href="{% url 'products:deals' %}" class="text-muted text-decoration-none">Deals</a></li>
                     </ul>
                 </div>
                 
@@ -478,11 +483,11 @@
                 <div class="col-lg-2 col-md-6">
                     <h6 class="mb-3">Categories</h6>
                     <ul class="list-unstyled">
-                        <li><a href="#" class="text-muted text-decoration-none">Electronics</a></li>
-                        <li><a href="#" class="text-muted text-decoration-none">Clothing</a></li>
-                        <li><a href="#" class="text-muted text-decoration-none">Home & Garden</a></li>
-                        <li><a href="#" class="text-muted text-decoration-none">Sports</a></li>
-                        <li><a href="#" class="text-muted text-decoration-none">View All →</a></li>
+                        <li><a href="{% url 'products:category' 'electronics' %}" class="text-muted text-decoration-none">Electronics</a></li>
+                        <li><a href="{% url 'products:category' 'clothing' %}" class="text-muted text-decoration-none">Clothing</a></li>
+                        <li><a href="{% url 'products:category' 'home-garden' %}" class="text-muted text-decoration-none">Home & Garden</a></li>
+                        <li><a href="{% url 'products:category' 'sports' %}" class="text-muted text-decoration-none">Sports</a></li>
+                        <li><a href="{% url 'products:product_list' %}" class="text-muted text-decoration-none">View All →</a></li>
                     </ul>
                 </div>
                 
@@ -532,7 +537,9 @@
     </footer>
 
     <!-- Enhanced JavaScript -->
-    <script src="{% load static %}{% static 'js/riya-group-enhanced.js' %}"></script>
+    <script src="{% static 'js/riya-group-enhanced.js' %}"></script>
+    <!-- Example Custom JS -->
+    <script src="{% static 'js/app.js' %}"></script>
 
     <!-- Core JavaScript Functions -->
     <script>

@@ -1,3 +1,25 @@
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import redirect
+from .models import Wishlist
+
+# View wishlist page
+@login_required
+def wishlist_view(request):
+    wishlist_items = Wishlist.objects.filter(user=request.user).select_related('product')
+    return render(request, 'products/wishlist.html', {'wishlist_items': wishlist_items})
+
+# Add product to wishlist
+@login_required
+def add_to_wishlist(request, product_id):
+    product = get_object_or_404(Product, id=product_id)
+    Wishlist.objects.get_or_create(user=request.user, product=product)
+    return redirect('products:wishlist')
+
+# Remove product from wishlist
+@login_required
+def remove_from_wishlist(request, product_id):
+    Wishlist.objects.filter(user=request.user, product_id=product_id).delete()
+    return redirect('products:wishlist')
 # products/views.py
 from django.shortcuts import render, get_object_or_404, redirect
 from django.http import JsonResponse, Http404
@@ -67,6 +89,15 @@ def home(request):
     # Brands
     brands = Brand.objects.filter(is_active=True)[:8]
     
+    # Get cart count (example: from session or user cart model)
+    cart_count = 0
+    if request.user.is_authenticated:
+        try:
+            from cart.models import Cart
+            cart = Cart.objects.get(user=request.user)
+            cart_count = cart.items.count()
+        except Exception:
+            cart_count = 0
     context = {
         'banners': active_banners,
         'featured_products': featured_products,
@@ -76,6 +107,8 @@ def home(request):
         'top_rated': top_rated,
         'testimonials': testimonials,
         'brands': brands,
+        'user': request.user,
+        'cart_count': cart_count,
     }
     return render(request, 'products/home.html', context)
 
@@ -143,6 +176,7 @@ class ProductListView(ListView):
         context['current_brand'] = self.request.GET.get('brand')
         context['current_sort'] = self.request.GET.get('sort', 'name')
         context['query'] = self.request.GET.get('q', '')
+        context['user'] = self.request.user
         return context
 
 def product_detail(request, slug=None, product_id=None):

@@ -159,4 +159,8 @@ def order_success(request, order_id):
 def order_history(request):
     """Display order history"""
     orders = Order.objects.filter(user=request.user).order_by('-created_at')
-    return render(request, 'orders/order_history.html', {'orders': orders})
+    context = {
+        'orders': orders,
+        'user': request.user,
+    }
+    return render(request, 'orders/order_history.html', context)

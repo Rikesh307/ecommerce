@@ -23,6 +23,8 @@ def cart_detail(request):
     context = {
         'cart_items': cart_items,
         'cart_total': cart_total,
+        'cart': cart,
+        'user': request.user,
     }
     return render(request, 'cart/cart.html', context)
 
